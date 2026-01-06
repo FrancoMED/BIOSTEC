@@ -1,0 +1,76 @@
+nav {
+	background-color: #000000;
+	padding: 10px 20px;
+	width: 100%;
+	text-align: right;
+	position: relative;
+	z-index: 100;
+	margin-bottom: 0;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin: 0 1rem;
+	transition: color 0.3s ease;
+	font-weight: bold;
+	padding: 5px 10px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+}
+
+.navbar_toggler {
+	background-color: #ff0000;
+	/* Cor do botÃ£o - vocÃª pode mudar */
+	border-color: #ff0000;
+	/* Cor da borda do botÃ£o */
+	border-radius: 5px;
+	/* Arredondar se quiser */
+}
+
+.navbar_toggler_icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+	/* Branco por padrÃ£o. Mude stroke='white' para a cor desejada, ex: 'red' */
+}
+
+nav a:hover {
+	color: #ff0000;
+	text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+nav a:last-child {
+	margin-right: 50px;
+}
+
+.navbar_brand {
+	color: white;
+	background-color: black;
+}
+
+.bg_body_tertiary {
+	background-color: black !important;
+}
+
+.bs_navbar_color {
+	color: white;
+}
+
+.nav_item {
+	color: white;
+}
+
+.nav_link {
+	color: white !important;
+	position: relative;
+	transition: all 0.3s ease;
+}
+
+.nav_link:hover {
+	color: #ff0000 !important;
+}
+
+.nav_link.active {
+	color: #ff0000 !important;
+	font-weight: 600;
+}
