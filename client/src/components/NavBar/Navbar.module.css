@@ -8,7 +8,8 @@ nav {
 	margin-bottom: 0;
 }
 
-nav a {
+nav a,
+nav p {
 	color: white;
 	text-decoration: none;
 	margin: 0 1rem;
@@ -25,7 +26,7 @@ nav a {
 	/* Cor do botÃ£o - vocÃª pode mudar */
 	border-color: #ff0000;
 	/* Cor da borda do botÃ£o */
-	border-radius: 5px;
+	/* border-radius: 5px; */
 	/* Arredondar se quiser */
 }
 
@@ -34,12 +35,14 @@ nav a {
 	/* Branco por padrÃ£o. Mude stroke='white' para a cor desejada, ex: 'red' */
 }
 
-nav a:hover {
+nav a:hover,
+nav p:hover {
 	color: #ff0000;
 	text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
 }
 
-nav a:last-child {
+nav a:last-child,
+nav p:last-child {
 	margin-right: 50px;
 }
 
