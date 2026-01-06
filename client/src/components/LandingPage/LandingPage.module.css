@@ -1,0 +1,30 @@
+#home {
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.hero_banner {
+	width: 100%;
+	background: #000000;
+	margin-top: -1px;
+	/* Elimina linea blanca entre header y hero */
+}
+
+.hero_banner_img {
+	width: 100%;
+	height: auto;
+	display: block;
+	max-height: 450px;
+	object-fit: contain;
+	/* Muestra TODO, sin recortar */
+	background: #000000;
+	/* Rellena los espacios con negro */
+}
+
+@media (max-width: 768px) {
+	.hero_banner_img {
+		max-height: none;
+		/* En mobile sin limites, que se vea completa */
+	}
+}
