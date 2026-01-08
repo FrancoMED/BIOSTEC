@@ -8,7 +8,6 @@ nav {
 	margin-bottom: 0;
 }
 
-nav a,
 nav p {
 	color: white;
 	text-decoration: none;
@@ -35,13 +34,11 @@ nav p {
 	/* Branco por padrÃ£o. Mude stroke='white' para a cor desejada, ex: 'red' */
 }
 
-nav a:hover,
 nav p:hover {
 	color: #ff0000;
 	text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
 }
 
-nav a:last-child,
 nav p:last-child {
 	margin-right: 50px;
 }
@@ -61,12 +58,14 @@ nav p:last-child {
 
 .nav_item {
 	color: white;
+	justify-content: end;
 }
 
 .nav_link {
 	color: white !important;
 	position: relative;
 	transition: all 0.3s ease;
+	justify-content: end;
 }
 
 .nav_link:hover {
