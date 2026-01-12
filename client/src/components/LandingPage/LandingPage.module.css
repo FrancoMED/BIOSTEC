@@ -28,3 +28,62 @@
 		/* En mobile sin limites, que se vea completa */
 	}
 }
+
+.hero_cta_bar {
+	background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
+	padding: 1.5rem 0;
+}
+
+.hero_cta_content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1.5rem;
+	flex-wrap: wrap;
+}
+
+.hero_cta_text {
+	color: rgba(255, 255, 255, 0.9);
+	margin: 0;
+	font-size: 1.05rem;
+	flex: 1;
+	min-width: 280px;
+}
+
+.hero_cta_text strong {
+	color: white;
+}
+
+.hero_cta_btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	background: linear-gradient(120deg, #ff0000, #ff4444);
+	color: white;
+	padding: 0.9rem 1.8rem;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1rem;
+	box-shadow: 0 6px 25px rgba(255, 0, 0, 0.35);
+	transition: all 0.3s ease;
+	white-space: nowrap;
+}
+
+.hero_cta_btn:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 8px 30px rgba(255, 0, 0, 0.45);
+	color: white;
+}
+
+@media (max-width: 768px) {
+	.hero_cta_content {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.hero_cta_btn {
+		width: 100%;
+		justify-content: center;
+	}
+}
