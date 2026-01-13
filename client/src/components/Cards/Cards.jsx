@@ -22,8 +22,8 @@ const Cards = () => {
 							</div>
 							<h4>Diagnóstico Rápido</h4>
 							<p>
-								Envie foto/vídeo pelo WhatsApp e receba uma avaliação inicial em
-								minutos
+								Envía una foto/vídeo por WhatsApp y recibe una valoración
+								inicial en minutos
 							</p>
 						</div>
 						<div class={styles.feature_card}>
@@ -38,9 +38,9 @@ const Cards = () => {
 									<path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0zm-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3h-7z" />
 								</svg>
 							</div>
-							<h4>Reparo em Nível de Componente</h4>
+							<h4>Reparación a Nivel de Componente</h4>
 							<p>
-								Microscópio, estação de solda profissional e equipamento
+								Microscopio, estación de soldadura profesional y equipo
 								especializado
 							</p>
 						</div>
@@ -59,8 +59,8 @@ const Cards = () => {
 							</div>
 							<h4>Garantía de 6 Meses</h4>
 							<p>
-								Todos os reparos incluem garantia. Se não tem conserto, você não
-								paga diagnóstico
+								Todas las reparaciones están garantizadas. Si no se puede
+								reparar, no paga el diagnóstico
 							</p>
 						</div>
 					</div>
