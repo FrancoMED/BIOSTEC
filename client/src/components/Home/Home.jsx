@@ -4,6 +4,7 @@ import NavBar from '../NavBar/NavBar.jsx';
 import LandingPage from '../LandingPage/LandingPage.jsx';
 import Features from '../Features/Features.jsx';
 import Cards from '../Cards/Cards.jsx';
+import Services from '../Services/Services.jsx';
 
 const Home = () => {
 	return (
@@ -13,6 +14,7 @@ const Home = () => {
 			<LandingPage />
 			<Features />
 			<Cards />
+			<Services />
 		</div>
 	);
 };
