@@ -1,0 +1,50 @@
+.features_section {
+	padding: 3rem 0;
+	background: white;
+}
+
+.features_grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 1.5rem;
+}
+
+.feature_card {
+	text-align: center;
+	padding: 1.5rem;
+	border-radius: 12px;
+	background: #f8f9fa;
+	border: 1px solid #e5e7eb;
+}
+
+.icon {
+	width: 50px;
+	height: 50px;
+	background: linear-gradient(135deg, #ff0000, #ff4444);
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto 1rem;
+	color: white;
+}
+
+.feature_card h4 {
+	font-size: 1.1rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+	color: #0a0a0a;
+}
+
+.feature_card p {
+	font-size: 0.95rem;
+	color: #666;
+	margin: 0;
+}
+
+.section_divider {
+	height: 4px;
+	background: linear-gradient(90deg, #000000, #ff0000, #000000);
+	margin: 3rem 0;
+	position: relative;
+}

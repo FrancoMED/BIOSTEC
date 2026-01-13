@@ -3,6 +3,7 @@ import Header from '../Header/Header.jsx';
 import NavBar from '../NavBar/NavBar.jsx';
 import LandingPage from '../LandingPage/LandingPage.jsx';
 import Features from '../Features/Features.jsx';
+import Cards from '../Cards/Cards.jsx';
 
 const Home = () => {
 	return (
@@ -11,6 +12,7 @@ const Home = () => {
 			<NavBar />
 			<LandingPage />
 			<Features />
+			<Cards />
 		</div>
 	);
 };
