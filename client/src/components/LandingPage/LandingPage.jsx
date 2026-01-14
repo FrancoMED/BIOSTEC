@@ -1,22 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import style from './LandingPage.module.css';
+import styles from './LandingPage.module.css';
 import home from '../../Images/home.jpg';
 
 const LandingPage = () => {
 	return (
-		<div id={style.home}>
-			<div class={`${style.hero_banner}`}>
+		<div id="home">
+			<div class={`${styles.hero_banner}`}>
 				<img
 					src={home}
 					alt="MacBook com problema? A gente resolve!"
-					class={`${style.hero_banner_img}`}
+					class={`${styles.hero_banner_img}`}
 				/>
 			</div>
-			<div class={`${style.hero_cta_bar}`}>
+			<div class={`${styles.hero_cta_bar}`}>
 				<div class="container">
-					<div class={`${style.hero_cta_content}`}>
-						<p class={`${style.hero_cta_text}`}>
+					<div class={`${styles.hero_cta_content}`}>
+						<p class={`${styles.hero_cta_text}`}>
 							<strong>
 								Especialistas en reparaciones de motherboard, pantalla, teclado
 								y otros.{' '}
@@ -25,7 +25,7 @@ const LandingPage = () => {
 						</p>
 						<Link
 							to="https://wa.me/5521976724708?text=Oi!%20Meu%20notebook%20está%20com%20problema.%20Podem%20me%20ajudar?"
-							class={`${style.hero_cta_btn}`}
+							class={`${styles.hero_cta_btn}`}
 							target="_blank"
 							rel="noopener noreferrer"
 						>
