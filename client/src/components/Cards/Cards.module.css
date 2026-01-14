@@ -41,10 +41,3 @@
 	color: #666;
 	margin: 0;
 }
-
-.section_divider {
-	height: 4px;
-	background: linear-gradient(90deg, #000000, #ff0000, #000000);
-	margin: 3rem 0;
-	position: relative;
-}
