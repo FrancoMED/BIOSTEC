@@ -3,7 +3,7 @@ import styles from './Contact.module.css';
 
 const Contact = () => {
 	return (
-		<div id="contato" class={styles.contact_simple}>
+		<div id="contacto" class={styles.contact_simple}>
 			<div class="container">
 				{/* <!-- CTA Principal --> */}
 				<div class={styles.contact_cta_box}>

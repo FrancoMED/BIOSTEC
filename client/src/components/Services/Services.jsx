@@ -5,7 +5,7 @@ import styles from './Services.module.css';
 const Services = () => {
 	return (
 		<div>
-			<section id="problemas" class={styles.problems_section}>
+			<section id="servicios" class={styles.problems_section}>
 				<div class="container">
 					<h2 class={styles.section_title}>¿A qué problema te enfrentas?</h2>
 					<p class={styles.section_subtitle}>
