@@ -5,7 +5,7 @@ import home from '../../Images/home.jpg';
 
 const LandingPage = () => {
 	return (
-		<div id="home">
+		<div>
 			<div class={`${styles.hero_banner}`}>
 				<img
 					src={home}
