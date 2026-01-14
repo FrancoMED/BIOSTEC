@@ -6,6 +6,7 @@ import Features from '../Features/Features.jsx';
 import Cards from '../Cards/Cards.jsx';
 import Services from '../Services/Services.jsx';
 import About from '../About/About.jsx';
+import Contact from '../Contact/Contact.jsx';
 import styles from './Home.module.css';
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
 			<div class={styles.section_divider}></div>
 			<About />
 			<div class={styles.section_divider}></div>
+			<Contact />
 		</div>
 	);
 };

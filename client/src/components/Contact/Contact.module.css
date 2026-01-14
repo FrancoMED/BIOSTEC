@@ -1,0 +1,123 @@
+.contact_simple {
+	padding: 4rem 0;
+	background: white;
+}
+
+.contact_cta_box {
+	background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+	color: white;
+	padding: 3rem 2rem;
+	border-radius: 20px;
+	text-align: center;
+	max-width: 800px;
+	margin: 0 auto 3rem;
+}
+
+.contact_cta_box h2 {
+	color: white;
+	font-size: 1.8rem;
+	margin-bottom: 0.5rem;
+}
+
+.contact_cta_box p {
+	color: rgba(255, 255, 255, 0.8);
+	margin-bottom: 1.5rem;
+}
+
+.contact_cta_box .cta_whatsapp {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.6rem;
+	background: #25d366;
+	color: white;
+	padding: 1rem 2rem;
+	border-radius: 12px;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1.1rem;
+	transition: all 0.3s ease;
+}
+
+.contact_cta_box .cta_whatsapp:hover {
+	background: #128c7e;
+	transform: translateY(-2px);
+	color: white;
+}
+
+.contact_info_grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 2rem;
+	margin-bottom: 2rem;
+}
+
+.contact_info_item {
+	display: flex;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
+.contact_info_item .icon {
+	width: 45px;
+	height: 45px;
+	background: #ff0000;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	flex-shrink: 0;
+}
+
+.contact_info_item h4 {
+	display: flex;
+	font-size: 1rem;
+	font-weight: 700;
+	margin-bottom: 0.25rem;
+}
+
+.contact_info_item p {
+	display: flex;
+	text-align: start;
+	color: #666;
+	margin: 0;
+	font-size: 0.95rem;
+}
+
+.contact_info_item a {
+	color: #666;
+	text-decoration: none;
+}
+
+.contact_info_item a:hover {
+	color: #ff0000;
+}
+
+.map_container {
+	width: 100%;
+	height: 450px;
+	margin-top: 4rem;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.map_container iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+@media (max-width: 991px) {
+	.map_container {
+		height: 350px;
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	.map_container {
+		height: 300px;
+	}
+}
