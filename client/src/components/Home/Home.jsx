@@ -7,6 +7,7 @@ import Cards from '../Cards/Cards.jsx';
 import Services from '../Services/Services.jsx';
 import About from '../About/About.jsx';
 import Contact from '../Contact/Contact.jsx';
+import Footer from '../Footer/Footer.jsx';
 import styles from './Home.module.css';
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
 			<About />
 			<div class={styles.section_divider}></div>
 			<Contact />
+			<Footer />
 		</div>
 	);
 };
