@@ -1,3 +1,10 @@
+body {
+	font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont,
+		sans-serif;
+	line-height: 1.6;
+	background-color: white;
+}
+
 .section_divider {
 	height: 4px;
 	background: linear-gradient(90deg, #000000, #ff0000, #000000);
