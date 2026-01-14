@@ -16,7 +16,7 @@ function Header() {
 	}, []);
 
 	return (
-		<header class={styles.header}>
+		<header id="inicio" class={styles.header}>
 			<canvas ref={canvasRef} />
 			<Link to="/">
 				<img src={LogoHeader} alt="Logo InfoSquad" class={styles.logo} />
