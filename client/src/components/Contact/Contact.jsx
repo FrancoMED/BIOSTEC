@@ -118,7 +118,7 @@ const Contact = () => {
 				{/* <!-- Mapa --> */}
 				<div class={styles.map_container}>
 					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d649.5971916002823!2d-43.53071845792422!3d-22.92529505117007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be6d18b8d09ed%3A0xff4732df8385822b!2sRua%20India%2C%202%20-%20Campo%20Grande%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2023017-070!5e0!3m2!1spt-BR!2sbr!4v1741785033396!5m2!1spt-BR!2sbr"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.778282521093!2d-58.24370552314288!3d-34.81151956850411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32906cbd2d14d%3A0x4090f8ea0f72ef6a!2sFrancisco%20Gurruchaga%201010%2C%20B1888%20Zeballos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1768577069341!5m2!1ses-419!2sar"
 						title="Mapa de nuestra sucursal"
 						loading="lazy"
 					></iframe>
