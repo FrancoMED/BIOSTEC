@@ -62,7 +62,7 @@
 .contact_info_item .icon {
 	width: 45px;
 	height: 45px;
-	background: #498cf1;
+	background: linear-gradient(135deg, #498cf1, #96bcf4);
 	border-radius: 10px;
 	display: flex;
 	align-items: center;
