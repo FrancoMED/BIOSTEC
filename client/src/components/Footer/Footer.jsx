@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './Footer.module.css';
-import LogoFooter from '../../Images/LogoTransFooter.jpg';
+import logoBiostec from '../../Images/logoBiostec.png';
 
 const Footer = () => {
 	return (
 		<footer>
 			<div class="container">
 				<div class={styles.footer_content}>
-					<img src={LogoFooter} alt="InfoSquad" class={styles.footer_logo} />
+					<img src={logoBiostec} alt="InfoSquad" class={styles.footer_logo} />
 					<div class={styles.footer_links}>
 						<a href="#servicios">Servicios</a>
 						<a href="#sobreNosotros">Sobre Nosotros</a>
@@ -21,7 +21,7 @@ const Footer = () => {
 						</a>
 					</div>
 					<p class={styles.footer_copy}>
-						© 2025 InfoSquad - Todos los derechos reservados
+						© 2026 BiosTec - Todos los derechos reservados
 					</p>
 				</div>
 			</div>

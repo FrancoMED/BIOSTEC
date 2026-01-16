@@ -58,21 +58,21 @@
 	display: inline-flex;
 	align-items: center;
 	gap: 0.5rem;
-	background: linear-gradient(120deg, #ff0000, #ff4444);
+	background: linear-gradient(120deg, #8db5f0, #b1cdf7);
 	color: white;
 	padding: 0.9rem 1.8rem;
 	border-radius: 10px;
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 1rem;
-	box-shadow: 0 6px 25px rgba(255, 0, 0, 0.35);
+	box-shadow: 0 6px 25px #8db4f08d;
 	transition: all 0.3s ease;
 	white-space: nowrap;
 }
 
 .hero_cta_btn:hover {
 	transform: translateY(-2px);
-	box-shadow: 0 8px 30px rgba(255, 0, 0, 0.45);
+	box-shadow: 0 8px 30px #8db5f0;
 	color: white;
 }
 

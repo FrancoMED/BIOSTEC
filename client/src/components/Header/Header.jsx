@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
-import LogoHeader from '../../Images/LogoTrans-header.jpg';
+import LogoHeader from '../../Images/logoBiostec.png';
 import network from './netWork.js';
 
 function Header() {

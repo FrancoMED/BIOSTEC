@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './LandingPage.module.css';
-import home from '../../Images/home.jpg';
+import home from '../../Images/homeBiostec.jpg';
 
 const LandingPage = () => {
 	return (

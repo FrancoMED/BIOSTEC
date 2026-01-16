@@ -21,8 +21,8 @@ const Services = () => {
 									<div class={`${styles.card_icon} ${styles.card_icon_red}`}>
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
-											width="24"
-											height="24"
+											width="26"
+											height="26"
 											fill="currentColor"
 											viewBox="0 0 16 16"
 										>
@@ -65,7 +65,7 @@ const Services = () => {
 						<div class="col-md-6 col-lg-3">
 							<div class={styles.problem_card}>
 								<div class={styles.container_card_icon}>
-									<div class={`${styles.card_icon} ${styles.card_icon_red}`}>
+									<div class={`${styles.card_icon} ${styles.card_icon_orange}`}>
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
 											width="24"
@@ -86,19 +86,19 @@ const Services = () => {
 										to="/reparo-placa-mae/notebook-nao-liga.html"
 										class={styles.link}
 									>
-										<p class={styles.btn_red}>Notebook no enciende</p>
+										<p class={styles.btn_orange}>Notebook no enciende</p>
 									</Link>
 									<Link
 										to="/reparo-placa-mae/dano-por-liquido.html"
 										class={styles.link}
 									>
-										<p class={styles.btn_red_solid}>🚨 Daño por líquido</p>
+										<p class={styles.btn_orange_solid}>🚨 Daño por líquido</p>
 									</Link>
 									<Link
 										to="/reparo-placa-mae/superaquecimento.html"
 										class={styles.link}
 									>
-										<p class={styles.btn_red}>Sobrecalentamiento</p>
+										<p class={styles.btn_orange}>Sobrecalentamiento</p>
 									</Link>
 								</div>
 							</div>
@@ -110,14 +110,36 @@ const Services = () => {
 								<div class={styles.container_card_icon}>
 									<div class={`${styles.card_icon} ${styles.card_icon_green}`}>
 										<svg
+											width="28"
+											height="28"
+											viewBox="0 0 24 24"
 											xmlns="http://www.w3.org/2000/svg"
-											width="24"
-											height="24"
 											fill="currentColor"
-											viewBox="0 0 16 16"
+											aria-hidden="true"
 										>
-											<path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707z" />
-											<path d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10z" />
+											{/* <!-- Círculo --> */}
+											<circle
+												cx="12"
+												cy="12"
+												r="11"
+												fill="none"
+												stroke="#28A745"
+												stroke-width="2"
+											/>
+
+											{/* <!-- Flecha --> */}
+											<path
+												d="M12 4 L5.5 10.5 H9 V17 H15 V10.5 H18.5 Z"
+												fill="#28A745"
+											/>
+											{/*  <!-- Línea inferior --> */}
+											<rect
+												x="9"
+												y="18"
+												width="6"
+												height="1.5"
+												fill="#28A745"
+											/>
 										</svg>
 									</div>
 								</div>

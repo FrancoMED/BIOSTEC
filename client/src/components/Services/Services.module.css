@@ -50,6 +50,11 @@
 	color: #ff0000;
 }
 
+.card_icon_orange {
+	background: #ffede2;
+	color: #ff6200;
+}
+
 .card_icon_green {
 	background: #ebffeb;
 	color: #28a745;
@@ -106,6 +111,17 @@
 	color: white !important;
 }
 
+.btn_orange {
+	border-color: #ff6200 !important;
+	color: #ff6200;
+	background: white;
+}
+
+.btn_orange:hover {
+	background: #ff6200;
+	color: white !important;
+}
+
 .btn_green {
 	border-color: #28a745 !important;
 	color: #28a745;
@@ -128,14 +144,14 @@
 	color: white !important;
 }
 
-.btn_red_solid {
-	background: #ff0000 !important;
+.btn_orange_solid {
+	background: #ff6200 !important;
 	color: white !important;
-	border-color: #ff0000 !important;
+	border-color: #ff6200 !important;
 }
 
-.btn_red_solid:hover {
-	background: #cc0000 !important;
+.btn_orange_solid:hover {
+	background: rgb(206, 79, 0) !important;
 }
 
 .link {

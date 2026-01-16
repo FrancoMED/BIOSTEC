@@ -42,7 +42,7 @@ export default function network(canvas) {
 				const dist = Math.sqrt(dx * dx + dy * dy);
 
 				if (dist < 100) {
-					ctx.strokeStyle = 'rgba(255,0,0,0.16)';
+					ctx.strokeStyle = '#8db4f040';
 					ctx.beginPath();
 					ctx.moveTo(points[i].x, points[i].y);
 					ctx.lineTo(points[j].x, points[j].y);
@@ -53,7 +53,7 @@ export default function network(canvas) {
 
 		// Dibujar puntos
 		for (let i = 0; i < numPoints; i++) {
-			ctx.fillStyle = '#ff0000';
+			ctx.fillStyle = '#8db5f0';
 			ctx.beginPath();
 			ctx.arc(points[i].x, points[i].y, 2, 0, Math.PI * 2);
 			ctx.fill();

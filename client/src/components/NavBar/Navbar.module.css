@@ -21,9 +21,9 @@ nav a {
 }
 
 .navbar_toggler {
-	background-color: #ff0000;
+	background-color: #478eec;
 	/* Cor do botÃ£o - vocÃª pode mudar */
-	border-color: #ff0000;
+	border-color: #478eec;
 	/* Cor da borda do botÃ£o */
 	border-radius: 5px;
 	/* Arredondar se quiser */
@@ -35,8 +35,8 @@ nav a {
 }
 
 nav a:hover {
-	color: #ff0000;
-	text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+	color: #478eec;
+	text-shadow: 0 0 10px #478eeccc;
 }
 
 nav a:last-child {
@@ -59,10 +59,10 @@ nav a:last-child {
 }
 
 .nav_link:hover {
-	color: #ff0000 !important;
+	color: #8bb6f0 !important;
 }
 
 .nav_link.active {
-	color: #ff0000 !important;
+	color: #8bb6f0 !important;
 	font-weight: 600;
 }

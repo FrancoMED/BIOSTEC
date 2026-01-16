@@ -17,9 +17,11 @@ header canvas {
 }
 
 .logo {
-	max-width: 170px;
-	margin: 0.85rem;
-	filter: drop-shadow(0 0 5px white) drop-shadow(0 0 5px white);
+	display: inline-block;
+	max-width: 130px;
+	/* margin: 0.1rem; */
+	margin-left: 1.5rem;
+	/* filter: drop-shadow(0 0 5px white) drop-shadow(0 0 5px white); */
 	transition: filter 0.3s ease;
 	position: absolute;
 	z-index: 1;
@@ -27,5 +29,5 @@ header canvas {
 }
 
 .logo:hover {
-	filter: drop-shadow(0 0 8px white) drop-shadow(0 0 8px white);
+	filter: drop-shadow(0 0 8px #8db5f0) drop-shadow(0 0 8px #8db5f0);
 }
