@@ -28,9 +28,9 @@ const About = () => {
 
 					<div class={styles.instagram_box_v2}>
 						<div class={styles.instagram_header}>
-							<img src={imageIG} alt="Instagram InfoSquad" />
+							<img src={imageIG} alt="Instagram BiosTec" />
 							<div>
-								<h3>@infosquadbrasil</h3>
+								<h3>@Biostec.Oficial</h3>
 								<p>Vea nuestras reparaciones</p>
 							</div>
 						</div>
@@ -41,7 +41,7 @@ const About = () => {
 							</p>
 						</div>
 						<Link
-							to="https://www.instagram.com/infosquadbrasil/"
+							to="https://www.instagram.com/biostec.oficial/?hl=es"
 							target="_blank"
 							rel="noreferrer"
 							class={styles.btn_instagram_v2}

@@ -5,8 +5,7 @@ const ButtonFloat = () => {
 	return (
 		<div class={styles.floating_whatsapp}>
 			<a
-				href="https://wa.me/5521976724708?text=Oi!%20Preciso%20de%20ajuda%20com%20meu%20notebook"
-				target="_blank"
+				href="https://wa.me/5491130508080?text=¡Hola!%20tengo%20un%20problema%20con%20mi%20equipo,%20¿Podrían%20ayudarme?"
 				rel="noreferrer"
 				class={styles.whatsapp_float_btn}
 			>

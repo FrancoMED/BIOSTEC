@@ -12,7 +12,7 @@ const Contact = () => {
 						Describe tu problema vía WhatsApp y recibe una valoración inicial.
 					</p>
 					<a
-						href="https://wa.me/5521976724708?text=Oi!%20Meu%20notebook%20está%20com%20problema.%20Podem%20me%20ajudar?"
+						href="https://wa.me/5491130508080?text=¡Hola!%20tengo%20un%20problema%20con%20mi%20equipo,%20¿Podrían%20ayudarme?"
 						class={styles.cta_whatsapp}
 						target="_blank"
 						rel="noreferrer"
@@ -48,9 +48,9 @@ const Contact = () => {
 						<div>
 							<h4>Dirección</h4>
 							<p>
-								Rua India, 2 - Campo Grande
+								Gurruchaga 1010 - Zeballos
 								<br />
-								Rio de Janeiro/RJ
+								Florencio Varela
 							</p>
 						</div>
 					</div>
@@ -70,8 +70,8 @@ const Contact = () => {
 						<div>
 							<h4>Email</h4>
 							<p>
-								<a href="mailto:infosquadbrasil@gmail.com">
-									infosquadbrasil@gmail.com
+								<a href="mailto:Agustincardz@gmail.com">
+									Agustincardz@gmail.com
 								</a>
 							</p>
 						</div>
@@ -104,11 +104,11 @@ const Contact = () => {
 							<h4>Instagram</h4>
 							<p>
 								<a
-									href="https://www.instagram.com/infosquadbrasil/"
+									href="https://www.instagram.com/biostec.oficial/?hl=es"
 									target="_blank"
 									rel="noreferrer"
 								>
-									@infosquadbrasil
+									@Biostec.Oficial
 								</a>
 							</p>
 						</div>

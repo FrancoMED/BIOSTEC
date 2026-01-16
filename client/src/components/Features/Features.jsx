@@ -8,11 +8,11 @@ const Features = () => {
 				<div class="container">
 					<div class={styles.proof_grid}>
 						<div class={styles.proof_item}>
-							<div class={styles.proof_number}>+15000</div>
+							<div class={styles.proof_number}>+400</div>
 							<div class={styles.proof_label}>Equipos reparados</div>
 						</div>
 						<div class={styles.proof_item}>
-							<div class={styles.proof_number}>20</div>
+							<div class={styles.proof_number}>2</div>
 							<div class={styles.proof_label}>Años de experiencia</div>
 						</div>
 						<div class={styles.proof_item}>

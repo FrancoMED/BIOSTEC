@@ -24,7 +24,7 @@ const LandingPage = () => {
 							Diagnóstico por WhatsApp: rápido y sin compromiso.
 						</p>
 						<Link
-							to="https://wa.me/5521976724708?text=Oi!%20Meu%20notebook%20está%20com%20problema.%20Podem%20me%20ajudar?"
+							to="https://wa.me/5491130508080?text=¡Hola!%20Mi%20notebook%20tiene%20problemas.%20¿Podrían%20ayudarme?"
 							class={`${styles.hero_cta_btn}`}
 							target="_blank"
 							rel="noopener noreferrer"
