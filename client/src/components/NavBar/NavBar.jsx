@@ -1,7 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import styles from './Navbar.module.css';
 
 const NavBar = () => {
+	const location = useLocation();
+
+	useEffect(() => {
+		if (location.hash) {
+			// Si hay un hash en la URL (ej: #inicio)
+			const element = document.getElementById(location.hash.substring(1)); // Busca el elemento por ID
+			if (element) {
+				element.scrollIntoView({ behavior: 'smooth' }); // Desplaza suavemente
+			}
+		}
+	}, [location]);
+
 	return (
 		<nav
 			class={`navbar navbar-expand-lg sticky-top ${styles.bg_body_tertiary} ${styles.nav}`}
@@ -24,24 +37,24 @@ const NavBar = () => {
 				>
 					<ul class="navbar-nav mb-2 mb-lg-0">
 						<li>
-							<a class={`nav-link ${styles.nav_link}`} href="#inicio">
+							<Link class={`nav-link ${styles.nav_link}`} to="/#inicio">
 								Inicio
-							</a>
+							</Link>
 						</li>
 						<li>
-							<a class={`nav-link ${styles.nav_link}`} href="#servicios">
+							<Link class={`nav-link ${styles.nav_link}`} to="/#servicios">
 								Servicios
-							</a>
+							</Link>
 						</li>
 						<li>
-							<a class={`nav-link ${styles.nav_link}`} href="#sobreNosotros">
+							<Link class={`nav-link ${styles.nav_link}`} to="/#sobreNosotros">
 								Sobre Nosotros
-							</a>
+							</Link>
 						</li>
 						<li>
-							<a class={`nav-link ${styles.nav_link}`} href="#contacto">
+							<Link class={`nav-link ${styles.nav_link}`} to="/#contacto">
 								Contacto
-							</a>
+							</Link>
 						</li>
 					</ul>
 				</div>
