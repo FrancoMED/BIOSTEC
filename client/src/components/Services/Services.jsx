@@ -143,7 +143,7 @@ const Services = () => {
 										</svg>
 									</div>
 								</div>
-								<h3>Upgrades</h3>
+								<h3>Actualización</h3>
 								<text>Haga que su Notebook sea más rápida.</text>
 								<div class={styles.btn_list}>
 									<Link

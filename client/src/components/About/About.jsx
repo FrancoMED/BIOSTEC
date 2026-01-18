@@ -9,8 +9,28 @@ const About = () => {
 			<div class="container">
 				<div class={styles.about_instagram_grid}>
 					<div class={styles.about_box}>
-						<h2>¿Quién es InfoSquad?</h2>
+						<h2>¿Qué hacemos?</h2>
 						<p>
+							Somos un laboratorio técnico especializado en reparación de
+							notebooks, consolas y placas de video, con amplia experiencia en
+							microsoldadura electrónica y reparación de placas base.
+						</p>
+						<p>
+							Brindamos un servicio técnico profesional orientado a la
+							reparación a nivel de componentes, utilizando microscopio,
+							estaciones de soldadura profesional y equipamiento de diagnóstico
+							avanzado para resolver fallas complejas en equipos electrónicos.
+						</p>
+						<p>
+							A diferencia de los servicios técnicos tradicionales, ofrecemos
+							reparación de placas electrónicas, recuperación de equipos con
+							fallas críticas y soluciones donde otros técnicos no intervienen.
+						</p>
+						<p>
+							Reparamos lo que otros descartan. Si su equipo puede repararse,
+							encontramos la solución.
+						</p>
+						{/* <p>
 							Somos un <strong> laboratorio técnico especializado </strong> en
 							reparación de notebooks y MacBooks, centrándose en
 							<strong> Microsoldadura y reparación de placas base </strong>.
@@ -23,7 +43,7 @@ const About = () => {
 						<p>
 							Reparamos lo que otros desechan. Si su equipo se puede reparar,
 							encontraremos la solución.
-						</p>
+						</p> */}
 					</div>
 
 					<div class={styles.instagram_box_v2}>
