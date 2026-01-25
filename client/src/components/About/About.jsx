@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './About.module.css';
-import imageIG from '../../Images/IG.jpg';
+import imageIG from '../../assets/Images/IG.jpg';
 
 const About = () => {
 	return (

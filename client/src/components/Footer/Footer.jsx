@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css';
-import logoBiostec from '../../Images/logoBiostec.png';
+import logoBiostec from '../../assets/Images/logoBiostec.png';
 
 const Footer = () => {
 	return (
