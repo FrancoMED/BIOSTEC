@@ -5,7 +5,6 @@ import Cards from '../../components/Cards/Cards.jsx';
 import Services from '../../components/Services/Services.jsx';
 import About from '../../components/About/About.jsx';
 import Contact from '../../components/Contact/Contact.jsx';
-import Footer from '../../components/Footer/Footer.jsx';
 import styles from './Home.module.css';
 
 const Home = () => {
@@ -20,7 +19,6 @@ const Home = () => {
 			<About />
 			<div class={styles.section_divider}></div>
 			<Contact />
-			<Footer />
 		</div>
 	);
 };

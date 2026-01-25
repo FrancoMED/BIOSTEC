@@ -4,6 +4,7 @@ import Home from './pages/Home/Home.jsx';
 import ButtonFloat from './components/ButtonFloat/ButtonFloat.jsx';
 import Header from './components/Header/Header.jsx';
 import NavBar from './components/NavBar/NavBar.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<Routes>
 				<Route exact path="/" element={<Home />} />
 			</Routes>
+			<Footer/>
 		</div>
 	);
 }
