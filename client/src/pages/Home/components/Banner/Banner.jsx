@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './LandingPage.module.css';
+import styles from './Banner.module.css';
 import home from '../../assets/Images/homeBiostec.jpg';
 
-const LandingPage = () => {
+const Banner = () => {
 	return (
 		<div>
 			<div class={`${styles.hero_banner}`}>
@@ -47,4 +47,4 @@ const LandingPage = () => {
 	);
 };
 
-export default LandingPage;
+export default Banner;
