@@ -34,7 +34,7 @@ const Services = () => {
 								<text>Pantalla, teclado, bisagras, puertos y cargador</text>
 								<div class={styles.btn_list}>
 									<Link
-										to="/reparo-notebooks/tela-notebook.html"
+										to="/screen"
 										class={styles.link}
 									>
 										<p class={styles.btn_red}>Pantalla rota o negra</p>
