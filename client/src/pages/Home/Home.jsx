@@ -1,26 +1,26 @@
-import React from 'react';
-import Banner from './components/Banner/Banner.jsx';
-import Features from '../../components/Features/Features.jsx';
-import Cards from './components/Cards/Cards.jsx';
-import Services from './components/Services/Services.jsx';
-import About from './components/About/About.jsx';
-import Contact from './components/Contact/Contact.jsx';
-import styles from './Home.module.css';
+import React from "react";
+import Banner from "./components/Banner/Banner.jsx";
+import Features from "../../components/Features/Features.jsx";
+import Cards from "./components/Cards/Cards.jsx";
+import Services from "./components/Services/Services.jsx";
+import About from "./components/About/About.jsx";
+import Contact from "./components/Contact/Contact.jsx";
+import styles from "./Home.module.css";
 
 const Home = () => {
-	return (
-		<div className="Home">
-			<Banner />
-			<Features />
-			<Cards />
-			<div class={styles.section_divider}></div>
-			<Services />
-			<div class={styles.section_divider}></div>
-			<About />
-			<div class={styles.section_divider}></div>
-			<Contact />
-		</div>
-	);
+  return (
+    <div className="Home">
+      <Banner />
+      <Features />
+      <Cards />
+      <div class={styles.section_divider}></div>
+      <Services />
+      <div class={styles.section_divider}></div>
+      <About />
+      <div class={styles.section_divider}></div>
+      <Contact />
+    </div>
+  );
 };
 
 export default Home;

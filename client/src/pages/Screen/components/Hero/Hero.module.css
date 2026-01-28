@@ -1,0 +1,145 @@
+:root {
+    --lp-primary: #8db5f0;
+    --lp-dark: #0a0a0a;
+    --lp-muted: #5a5a5a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lp_hero {
+    background: linear-gradient(135deg, #fff 0%, #e4efffe4 100%);
+    border: 2px solid var(--lp-primary);
+    border-radius: 20px;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.lp_hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(120deg, var(--lp-primary), #b1cdf7);
+    pointer-events: none;
+}
+
+.lp_urgency_badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 1rem;
+    background: linear-gradient(120deg, var(--lp-primary), #b1cdf7);
+    color: white;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.02);
+    }
+}
+
+.lp_hero h1 {
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    font-weight: 800;
+    color: var(--lp-dark);
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+}
+
+.lp_hero h1 span {
+    color: var(--lp-primary);
+}
+
+.lp_hero_subtitle {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Proceso en 3 pasos */
+.lp_steps {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+}
+
+.lp_step {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.4rem 0.8rem;
+    background: #f0f0f0;
+    border-radius: 999px;
+}
+
+.lp_step_arrow {
+    color: var(--lp-primary);
+    font-weight: bold;
+}
+
+/* CTA Principal */
+.btn_container {
+    margin: 10px;
+}
+
+
+
+.lp_cta_main {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    background: linear-gradient(120deg, var(--lp-primary), #b1cdf7);
+    color: white;
+    padding: 1.1rem 2rem;
+    border-radius: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.15rem;
+    box-shadow: 0 8px 30px #8db4f08d;
+    transition: all 0.2s ease;
+    width: 100%;
+    max-width: 400px;
+}
+
+.lp_cta_main:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px #8db5f0;
+    color: white;
+}
+
+.lp_hero_trust {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--lp-muted);
+}
+
+.lp_hero_trust span {
+    margin: 0 0.5rem;
+}
