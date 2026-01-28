@@ -1,23 +1,20 @@
 import React from "react";
 import styles from "./Hero.module.css";
 
-const Hero = () => {
+const Hero = ({ props }) => {
   return (
     <section class={styles.lp_hero}>
-      <h1>Pantalla Quebrada? Cotización GRATIS a través de WhatsApp</h1>
-
-      <p class={styles.lp_hero_subtitle}>
-        Descubra si necesita reemplazar la pantalla o si hay una opción de
-        reparación más económica, sin salir de casa.
-      </p>
+      <h1>{props.title}</h1>
+      {console.log(props)}
+      <p class={styles.lp_hero_subtitle}>{props.subtitle}</p>
 
       {/* <!-- Proceso en 3 pasos --> */}
       <div class={styles.lp_steps}>
-        <span class={styles.lp_step}>📸 Envíe foto</span>
+        <span class={styles.lp_step}>{props.steps[0]}</span>
         <span class={styles.lp_step_arrow}>→</span>
-        <span class={styles.lp_step}>🔍 Técnico analista</span>
+        <span class={styles.lp_step}>{props.steps[1]}</span>
         <span class={styles.lp_step_arrow}>→</span>
-        <span class={styles.lp_step}>💰 Reciba cotización</span>
+        <span class={styles.lp_step}>{props.steps[2]}</span>
       </div>
 
       <div class={styles.btn_container}>
