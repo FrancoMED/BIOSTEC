@@ -1,0 +1,120 @@
+:root {
+    --lp-primary: #8db5f0;
+    --lp-primary-dark: #a00000;
+    --lp-dark: #0a0a0a;
+    --lp-muted: #5a5a5a;
+    --lp-bg: #f7f7f8;
+    --lp-card: #ffffff;
+    --lp-border: #e5e7eb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lp_section {
+    background: var(--lp-card);
+    border: 1px solid var(--lp-border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-top: 1.25rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.lp_section h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--lp-dark);
+}
+
+.lp_section_intro {
+    font-size: 1.05rem;
+    color: #444;
+    margin-bottom: 1.5rem;
+}
+
+/* Grid de diagnóstico */
+.lp_diagnosis_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .lp_diagnosis_grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.lp_diagnosis_card {
+    border: 2px solid var(--lp-border);
+    border-radius: 14px;
+    padding: 1.25rem;
+    position: relative;
+}
+
+.bad {
+    border-color: #ffcccc;
+    background: linear-gradient(135deg, #fff 0%, #fff8f8 100%);
+}
+
+.good {
+    border-color: #ccffcc;
+    background: linear-gradient(135deg, #fff 0%, #f8fff8 100%);
+}
+
+.lp_diagnosis_card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.lp_diagnosis_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lp_diagnosis_list li {
+    padding: 0.35rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    font-size: 0.95rem;
+}
+
+.lp_diagnosis_list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--lp-primary);
+    font-weight: bold;
+}
+
+.lp_diagnosis_solution {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background: #f5f5f5;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+.lp_diagnosis_solution small {
+    color: #666;
+    font-size: 0.9rem
+}
+
+.strong_bad {
+    font-size: 1.2rem;
+    color: #d32f2f
+}
+
+
+.strong_good {
+    font-size: 1.2rem;
+    color: #2e7d32
+}
