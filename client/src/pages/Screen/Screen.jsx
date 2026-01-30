@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../../components/Hero/Hero.jsx";
 import styles from "./Screen.module.css";
 import FeaturesScreen from "./components/FeaturesScreen/FeaturesScreen.jsx";
+import Faq from "./components/Faq/Faq.jsx";
 
 const texts = {
   title: "Pantalla Quebrada? Cotización GRATIS a través de WhatsApp",
@@ -15,6 +16,7 @@ const Screen = () => {
     <div class={styles.lp_wrapper}>
       <Hero props={texts} />
       <FeaturesScreen />
+      <Faq />
     </div>
   );
 };
