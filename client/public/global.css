@@ -1,3 +1,15 @@
+@import "tailwindcss";
 @tailwind base;
 @tailwind comnponents;
 @tailwind utilities;
+
+
+.diagnosisGrid {
+    @apply grid grid-cols-[1fr] gap-4;
+}
+
+@media (min-width: 768px) {
+    .diagnosisGrid {
+        @apply grid-cols-[1fr_1fr];
+    }
+}

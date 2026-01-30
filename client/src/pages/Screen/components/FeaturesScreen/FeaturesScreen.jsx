@@ -5,10 +5,10 @@ const FeaturesScreen = () => {
   return (
     <>
       <section class={styles.lp_section}>
-        <h2>🔍 Consertar uma tela de notebook fica caro?</h2>
+        <h2>🔍 Es caro reparar la pantalla de un portátil?</h2>
         <p class={styles.lp_section_intro}>
-          <strong>Boa notícia:</strong> Nem sempre precisa trocar toda a tela!
-          Veja como identificar:
+          <strong>Buena noticia:</strong> ¡No siempre es necesario reemplazar la
+          pantalla completa! Aquí te explicamos cómo identificarla:
         </p>
 
         <div class={styles.lp_diagnosis_grid}>
@@ -22,7 +22,7 @@ const FeaturesScreen = () => {
             </ul>
             <div class={styles.lp_diagnosis_solution}>
               <strong class={styles.strong_bad}>
-                💰 Costo: Entre $98.000 y $350.000
+                💰 Costo: Entre $75.000 y $350.000
               </strong>
               <br />
               <small>(Varia conforme a la marca y modelo de la notebook)</small>
