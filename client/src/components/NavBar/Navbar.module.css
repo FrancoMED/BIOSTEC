@@ -1,4 +1,4 @@
-nav {
+/* nav {
 	background-color: #000000;
 	padding: 10px 20px;
 	width: 100%;
@@ -22,16 +22,12 @@ nav a {
 
 .navbar_toggler {
 	background-color: #478eec;
-	/* Cor do botÃ£o - vocÃª pode mudar */
 	border-color: #478eec;
-	/* Cor da borda do botÃ£o */
 	border-radius: 5px;
-	/* Arredondar se quiser */
 }
 
 .navbar_toggler_icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-	/* Branco por padrÃ£o. Mude stroke='white' para a cor desejada, ex: 'red' */
 }
 
 nav a:hover {
@@ -65,4 +61,48 @@ nav a:last-child {
 .nav_link.active {
 	color: #8bb6f0 !important;
 	font-weight: 600;
+} */
+
+.nav_link {
+	position: relative;
+	transition: all 0.3s ease;
+}
+
+.nav_link::after {
+	content: '';
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background: linear-gradient(90deg, #0066ff, #ffffff);
+	transition: width 0.3s ease;
+}
+
+.nav_link:hover::after {
+	width: 100%;
+}
+
+.nav_link:hover {
+	color: #498cf1;
+	transform: translateY(-2px);
+}
+
+.img_nav_link:hover {
+	filter: drop-shadow(0 0 8px #2f7bed) drop-shadow(0 0 8px #2f7bed);
+	transition: all 0.3s ease;
+}
+
+
+.mobile_nav_item {
+	transition: all 0.3s ease;
+	padding: 3px;
+	border-left: 4px solid transparent;
+}
+
+.mobile_nav_item:hover {
+	background: #498cf146;
+	border-left-color: #2f7bed;
+
+	transform: translateX(8px);
 }
