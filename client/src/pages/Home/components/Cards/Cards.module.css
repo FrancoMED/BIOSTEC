@@ -1,5 +1,5 @@
 .features_section {
-	padding: 3rem 0;
+	padding: 3rem;
 	background: white;
 }
 
@@ -40,4 +40,10 @@
 	font-size: 0.95rem;
 	color: #666;
 	margin: 0;
+}
+
+@media (min-width: 1280px) {
+	.features_section {
+		padding: 3rem 12rem;
+	}
 }
