@@ -27,7 +27,7 @@ export default function Navbar() {
   return (
     <nav
       className={`z-100 transition-all duration-300 sticky top-0 backdrop-saturate-100 
-                  ${scrolled ? "bg-gray-950/70 backdrop-blur-md shadow-lg" : "bg-black"}`}
+                ${scrolled ? "bg-gray-950/70 backdrop-blur-md shadow-lg" : "bg-black"}`}
     >
       <div className="max-w-full mx-auto px-6">
         <div className="flex items-center justify-between h-20 ">
@@ -78,18 +78,17 @@ export default function Navbar() {
                           "
             >
               <span className="sr-only">Toggle menu</span>
-
               <span
                 className={`absolute h-0.5 w-5 bg-white transition-all duration-300
-                ${isOpen ? "rotate-45" : "-translate-y-1.5"}`}
+                          ${isOpen ? "rotate-45" : "-translate-y-1.5"}`}
               />
               <span
                 className={`absolute h-0.5 w-5 bg-white transition-all duration-300
-                ${isOpen ? "opacity-0" : "opacity-100"}`}
+                          ${isOpen ? "opacity-0" : "opacity-100"}`}
               />
               <span
                 className={`absolute h-0.5 w-5 bg-white transition-all duration-300
-                ${isOpen ? "-rotate-45" : "translate-y-1.5"}`}
+                          ${isOpen ? "-rotate-45" : "translate-y-1.5"}`}
               />
             </button>
           </div>
@@ -98,16 +97,16 @@ export default function Navbar() {
 
       {/* Menú mobile */}
       <div
-        className={`z-60 fixed top-0 left-0 right-0 h-72md:hiddenbg-gray-900/95 backdrop-blur-mdshadow-xltransition-all duration-200 origin-top
+        className={`z-60 fixed top-0 left-0 right-0  h-72 md:hidden bg-gray-900/95 backdrop-blur-md shadow-xl transition-all duration-200 origin-top
                     ${isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
       >
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-end">
-            <div className="fixed top-18 right-4z-65flex flex-col gap-3w-26">
+            <div className="fixed top-18  right-4 z-65 flex flex-col gap-3 w-26">
               {["Inicio", "Servicios", "Sobre Nosotros", "Contacto"].map(
                 (item) => (
                   <Link
-                    // key={item}
+                    key={item}
                     to={`/#${item}`}
                     className={`block text-lg font-semibold text-white rounded-lg hover:bg-gray-800 active:bg-gray-900 transition  ${styles.mobile_nav_item}`}
                   >
