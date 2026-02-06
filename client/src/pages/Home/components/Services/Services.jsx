@@ -121,7 +121,7 @@ const Services = () => {
                         r="11"
                         fill="none"
                         stroke="#28A745"
-                        stroke-width="2"
+                        strokeWidth="2"
                       />
 
                       {/* <!-- Flecha --> */}
