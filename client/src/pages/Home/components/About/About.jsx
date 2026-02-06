@@ -5,7 +5,7 @@ import imageIG from "../../../../assets/Images/IG.jpg";
 
 const About = () => {
   return (
-    <div id="sobreNosotros" class={styles.about_instagram_section}>
+    <div id="Sobre%20Nosotros" class={styles.about_instagram_section}>
       <div class="container">
         <div class={styles.about_instagram_grid}>
           <div class={styles.about_box}>
