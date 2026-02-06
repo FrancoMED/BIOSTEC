@@ -18,9 +18,9 @@ function Header() {
   return (
     <header id="inicio" class={styles.header}>
       <canvas ref={canvasRef} />
-      <Link to="/">
+      {/* <Link to="/">
         <img src={LogoHeader} alt="Logo InfoSquad" class={styles.logo} />
-      </Link>
+      </Link> */}
     </header>
   );
 }
