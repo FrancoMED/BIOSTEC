@@ -5,7 +5,6 @@ const Hero = ({ props }) => {
   return (
     <section class={styles.lp_hero}>
       <h1>{props.title}</h1>
-      {console.log(props)}
       <p class={styles.lp_hero_subtitle}>{props.subtitle}</p>
 
       {/* <!-- Proceso en 3 pasos --> */}
