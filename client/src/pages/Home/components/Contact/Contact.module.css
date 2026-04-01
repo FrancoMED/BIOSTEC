@@ -4,7 +4,7 @@
 }
 
 .contact_cta_box {
-	background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+	background: linear-gradient(135deg, #0a0a0a 0%, #555555 100%);
 	color: white;
 	padding: 3rem 2rem;
 	border-radius: 20px;
@@ -112,6 +112,12 @@
 	width: 100%;
 	height: 100%;
 	border: 0;
+}
+
+@media (max-width: 850px) {
+	.contact_cta_box {
+		width: 90%;
+	}
 }
 
 @media (max-width: 991px) {
