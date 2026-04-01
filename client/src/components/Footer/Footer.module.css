@@ -13,9 +13,10 @@ footer {
 }
 
 .footer_logo {
-	width: 70px;
-	height: 70px;
-	filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.3));
+	padding-left: 0.5rem;
+	width: 170px;
+	height: 60px;
+	filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.554));
 }
 
 .footer_links {
@@ -36,11 +37,13 @@ footer {
 .footer_copy {
 	color: rgba(255, 255, 255, 0.5);
 	font-size: 0.85rem;
+	padding-left: 1.5rem;
 }
 
 @media (max-width: 768px) {
 	.footer_content {
 		flex-direction: column;
 		text-align: center;
+		/* padding-left: 1rem; */
 	}
 }
