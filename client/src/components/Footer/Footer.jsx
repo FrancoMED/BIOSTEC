@@ -18,9 +18,9 @@ const Footer = () => {
 
   return (
     <footer>
-      <div class="container">
+      <div>
         <div class={styles.footer_content}>
-          <img src={logoBiostec} alt="InfoSquad" class={styles.footer_logo} />
+          <img src={logoBiostec} alt="biostec" class={styles.footer_logo} />
           {/* <div class={styles.footer_links}>
 						<a href="#servicios">Servicios</a>
 						<a href="#sobreNosotros">Sobre Nosotros</a>
