@@ -6,16 +6,16 @@ const Services = () => {
   return (
     <div>
       <section id="Servicios" class={styles.problems_section}>
-        <div class="container">
+        <div class="mx-auto px-4">
           <h2 class={styles.section_title}>¿A qué problema te enfrentas?</h2>
           <p class={styles.section_subtitle}>
             Haga clic en su problema para ver soluciones y solicitar una
             cotización.
           </p>
 
-          <div class="row g-4">
+          <div class={`flex justify-center w-full flex-wrap gap-4`}>
             {/* <!-- Reparación de notebooks --> */}
-            <div class="col-md-6 col-lg-3">
+            <div class="w-72 max-w-sm items-center px-2 xs:w-full md:w-6/13 lg:w-3/13">
               <div class={styles.problem_card}>
                 <div class={styles.container_card_icon}>
                   <div class={`${styles.card_icon} ${styles.card_icon_red}`}>
@@ -59,7 +59,7 @@ const Services = () => {
             </div>
 
             {/* <!-- Placa madre --> */}
-            <div class="col-md-6 col-lg-3">
+            <div class="w-72 max-w-sm items-center px-2 xs:w-full md:w-6/13 lg:w-3/13">
               <div class={styles.problem_card}>
                 <div class={styles.container_card_icon}>
                   <div class={`${styles.card_icon} ${styles.card_icon_orange}`}>
@@ -102,7 +102,7 @@ const Services = () => {
             </div>
 
             {/* <!-- Upgrades --> */}
-            <div class="col-md-6 col-lg-3">
+            <div class="w-72 max-w-sm items-center px-2 xs:w-full md:w-6/13 lg:w-3/13">
               <div class={styles.problem_card}>
                 <div class={styles.container_card_icon}>
                   <div class={`${styles.card_icon} ${styles.card_icon_green}`}>
@@ -160,7 +160,7 @@ const Services = () => {
             </div>
 
             {/* <!-- Software --> */}
-            <div class="col-md-6 col-lg-3">
+            <div class="w-72 max-w-sm items-center px-2 xs:w-full md:w-6/13 lg:w-3/13">
               <div class={styles.problem_card}>
                 <div class={styles.container_card_icon}>
                   <div class={`${styles.card_icon} ${styles.card_icon_blue}`}>
