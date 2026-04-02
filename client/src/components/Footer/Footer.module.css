@@ -45,6 +45,5 @@ footer {
 	.footer_content {
 		flex-direction: column;
 		text-align: center;
-		/* padding-left: 1rem; */
 	}
 }
