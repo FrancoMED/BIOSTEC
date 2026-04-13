@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Diagnostic.module.css";
-import image from "../../../../assets/Images/components.png";
+import image from "../../../../assets/Images/pantalla-rota.jpg";
 
 const Diagnostic = () => {
   return (
@@ -11,29 +11,32 @@ const Diagnostic = () => {
           <div className="w-full lg:w-3/7">
             <img src={image} alt="Componentes" />
           </div>
-          <div className="w-full lg:w-1/2">
-            <h2>Como Resolvemos Seu Problema</h2>
-            <p className="mb-4">Nossa metodologia profissional em 5 passos:</p>
+          <div className="w-full lg:w-3/7">
+            <h2>🧪 Prueba rápida que podés hacer ahora</h2>
+            {/* <p>
+              Antes de descartar tu equipo o cambiar la pantalla, podés realizar
+              estas pruebas simples que ayudan a identificar dónde está la
+              falla.
+            </p> */}
+            <h3>🔌 Conectá un monitor externo por HDMI</h3>
             <ul className={styles.lp_list}>
               <li>
-                <strong>Diagnóstico preciso:</strong> Identificamos qual
-                componente está sem driver
+                <strong>Si el monitor externo funciona correctamente:</strong>{" "}
+                El problema suele estar en la pantalla o en el cable flex.
               </li>
               <li>
-                <strong>Busca oficial:</strong> Baixamos driver direto do site
-                do fabricante (Dell, HP, Lenovo, etc.)
+                <strong>Si el monitor externo muestra el mismo defecto:</strong>{" "}
+                La falla puede estar en la placa base o en el circuito de video,
+                un tipo de reparación que no todos los servicios técnicos
+                realizan.
               </li>
+            </ul>
+            <h3>🖐️ Mové la tapa lentamente</h3>
+            <ul className={styles.lp_list}>
               <li>
-                <strong>Instalação correta:</strong> Seguimos procedimento
-                técnico adequado
-              </li>
-              <li>
-                <strong>Configuração otimizada:</strong> Ajustamos parâmetros
-                para melhor desempenho
-              </li>
-              <li>
-                <strong>Teste completo:</strong> Validamos que tudo está
-                funcionando 100%
+                <strong>Si la imagen cambia o parpadea:</strong> Es muy probable
+                que se trate de un problema en el cable flex, generalmente
+                reparable sin cambiar la pantalla.
               </li>
             </ul>
           </div>

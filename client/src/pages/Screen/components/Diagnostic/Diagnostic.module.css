@@ -23,11 +23,23 @@
     color: var(--lp-dark);
 }
 
+.lp_section p {
+    margin-bottom: 0.5rem;
+}
+
+.lp_section h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--lp-dark);
+}
+
 .lp_section img {
     width: 100%;
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
-    min-width: 480px;
+    min-width: 530px;
+    min-height: 480px;
     /* height: 100%; */
 }
 
@@ -40,18 +52,18 @@
 }
 
 .lp_list li {
-    padding: 0.75rem 0;
-    padding-left: 2rem;
+    padding: 0.5rem 0;
+    padding-left: 1rem;
     position: relative;
     font-size: 1.05rem;
     line-height: 1.6;
 }
 
 .lp_list li::before {
-    content: '✓';
+    content: '•';
     position: absolute;
     left: 0;
-    color: var(--lp-primary);
+    color: #a00000;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 0.9rem;
 }
