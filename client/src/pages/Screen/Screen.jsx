@@ -4,6 +4,7 @@ import styles from "./Screen.module.css";
 import FeaturesScreen from "./components/FeaturesScreen/FeaturesScreen.jsx";
 import Diagnostic from "./components/Diagnostic/Diagnostic.jsx";
 import Faq from "./components/Faq/Faq.jsx";
+import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 
 const texts = {
   title: "Pantalla Quebrada? Cotización GRATIS a través de WhatsApp",
@@ -19,6 +20,7 @@ const Screen = () => {
       <FeaturesScreen />
       <Diagnostic />
       <Faq />
+      <RelatedServices />
     </div>
   );
 };

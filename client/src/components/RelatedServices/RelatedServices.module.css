@@ -1,0 +1,17 @@
+.container_services p {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: var(--lp-muted);
+    font-size: 0.95rem
+}
+
+/* Links */
+.lp_link {
+    color: var(--lp-primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.lp_link:hover {
+    text-decoration: underline;
+}
