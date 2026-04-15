@@ -8,7 +8,7 @@ const Diagnostic = () => {
       {/* <div className="container"> */}
       <div className="mx-auto px-4">
         <div className="flex flex-wrap justify-between items-center gap-6">
-          <div className="w-full lg:w-3/7">
+          <div className="w-full  lg:w-3/7">
             <img src={image} alt="Componentes" />
           </div>
           <div className="w-full lg:w-3/7">

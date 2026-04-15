@@ -43,6 +43,20 @@
     /* height: 100%; */
 }
 
+@media (max-width: 1048px) {
+    .lp_section img {
+        min-width: 500px;
+        min-height: 465px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lp_section img {
+        min-width: 0;
+        min-height: 0;
+    }
+}
+
 
 /* Lista mejorada */
 .lp_list {
