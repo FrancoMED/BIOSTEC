@@ -1,6 +1,7 @@
 import React from "react";
-import Hero from "../../components/Hero/Hero.jsx";
 import styles from "./Keyboard.module.css";
+import Hero from "../../components/Hero/Hero.jsx";
+import DiagnosticKeyboard from "./components/DiagnosticKeyboard/DiagnosticKeyboard.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 
 const heroTexts = {
@@ -9,9 +10,9 @@ const heroTexts = {
     "Teclas que no responden, letras borradas o líquido derramado — nosotros lo solucionamos. Reparamos o reemplazamos el teclado de tu notebook con garantía de hasta 6 meses y piezas originales.",
 
   steps: [
-    "🧾 1. Envíanos el modelo",
-    "🔍 2. Verificamos disponibilidad",
-    "💰 3. Recibí tu presupuesto gratuito",
+    "🧾 Envíanos el modelo",
+    "🔍 Verificamos disponibilidad",
+    "💰 Recibí tu presupuesto gratuito",
   ],
 };
 
@@ -29,6 +30,7 @@ const Keyboard = () => {
   return (
     <div class={styles.lp_wrapper}>
       <Hero props={heroTexts} />
+      <DiagnosticKeyboard />
       <RelatedServices props={relatedServicesContent} />
     </div>
   );
