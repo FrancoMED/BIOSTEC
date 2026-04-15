@@ -6,21 +6,32 @@ import Diagnostic from "./components/Diagnostic/Diagnostic.jsx";
 import Faq from "./components/Faq/Faq.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 
-const texts = {
+const heroTexts = {
   title: "Pantalla Quebrada? Cotización GRATIS a través de WhatsApp",
   subtitle:
     "Descubra si necesita reemplazar la pantalla o si hay una opción dereparación más económica, sin salir de casa.",
 
   steps: ["📸 Envíe foto", "🔍 Técnico analista", "💰 Reciba cotización"],
 };
+
+const relatedServicesContent = {
+  texts: [
+    "Teclado defectuoso",
+    "Bisagras",
+    "Puertos USB/HDMI",
+    "Notebook no enciende",
+  ],
+  links: ["/keyboard", "/hinges", "/ports", "/notebook-not-start"],
+};
+
 const Screen = () => {
   return (
     <div class={styles.lp_wrapper}>
-      <Hero props={texts} />
+      <Hero props={heroTexts} />
       <FeaturesScreen />
       <Diagnostic />
       <Faq />
-      <RelatedServices />
+      <RelatedServices props={relatedServicesContent} />
     </div>
   );
 };

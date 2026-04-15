@@ -1,3 +1,8 @@
+.container_services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .container_services p {
     text-align: center;
     margin-top: 1.5rem;
