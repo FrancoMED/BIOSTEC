@@ -36,22 +36,13 @@ const Services = () => {
                   <Link to="/screen" class={styles.link}>
                     <p class={styles.btn_red}>Pantalla rota o negra</p>
                   </Link>
-                  <Link
-                    to="/reparo-notebooks/teclado-notebook.html"
-                    class={styles.link}
-                  >
+                  <Link to="/Keyboard" class={styles.link}>
                     <p class={styles.btn_red}>Teclado defectuoso</p>
                   </Link>
-                  <Link
-                    to="/reparo-notebooks/dobradicas.html"
-                    class={styles.link}
-                  >
+                  <Link to="/hinges" class={styles.link}>
                     <p class={styles.btn_red}>Bisagras</p>
                   </Link>
-                  <Link
-                    to="/reparo-notebooks/portas-usb-hdmi-carga.html"
-                    class={styles.link}
-                  >
+                  <Link to="/ports" class={styles.link}>
                     <p class={styles.btn_red}>Puertos USB/HDMI</p>
                   </Link>
                 </div>
@@ -79,22 +70,13 @@ const Services = () => {
                   Sin energía, sin imagen, cortocircuito o fuga de líquido.
                 </text>
                 <div class={styles.btn_list}>
-                  <Link
-                    to="/reparo-placa-mae/notebook-nao-liga.html"
-                    class={styles.link}
-                  >
+                  <Link to="/notebook-not-start" class={styles.link}>
                     <p class={styles.btn_orange}>Notebook no enciende</p>
                   </Link>
-                  <Link
-                    to="/reparo-placa-mae/dano-por-liquido.html"
-                    class={styles.link}
-                  >
+                  <Link to="/liquid" class={styles.link}>
                     <p class={styles.btn_orange_solid}>🚨 Daño por líquido</p>
                   </Link>
-                  <Link
-                    to="/reparo-placa-mae/superaquecimento.html"
-                    class={styles.link}
-                  >
+                  <Link to="/overheating" class={styles.link}>
                     <p class={styles.btn_orange}>Sobrecalentamiento</p>
                   </Link>
                 </div>
@@ -143,16 +125,10 @@ const Services = () => {
                 <h3>Actualización</h3>
                 <text>Haga que su Notebook sea más rápida.</text>
                 <div class={styles.btn_list}>
-                  <Link
-                    to="/upgrades-notebook/trocar-hdd-por-ssd.html"
-                    class={styles.link}
-                  >
+                  <Link to="/discs" class={styles.link}>
                     <p class={styles.btn_green}>Reemplazar un HDD por un SSD</p>
                   </Link>
-                  <Link
-                    to="/upgrades-notebook/ampliar-ram.html"
-                    class={styles.link}
-                  >
+                  <Link to="/ram" class={styles.link}>
                     <p class={styles.btn_green}>Ampliar memoria RAM</p>
                   </Link>
                 </div>
@@ -179,16 +155,10 @@ const Services = () => {
                 <h3>Software</h3>
                 <text>Sistema, drivers y configuración</text>
                 <div class={styles.btn_list}>
-                  <Link
-                    to="/software/reinstalar-windows.html"
-                    class={styles.link}
-                  >
+                  <Link to="/windows" class={styles.link}>
                     <p class={styles.btn_blue}>Reinstalar Windows</p>
                   </Link>
-                  <Link
-                    to="/software/drivers-wifi-bluetooth-audio.html"
-                    class={styles.link}
-                  >
+                  <Link to="/drivers" class={styles.link}>
                     <p class={styles.btn_blue}>Drivers Wi-Fi/Bluetooth</p>
                   </Link>
                 </div>
