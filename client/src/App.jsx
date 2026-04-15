@@ -6,6 +6,7 @@ import ButtonFloat from "./components/ButtonFloat/ButtonFloat.jsx";
 import Header from "./components/Header/Header.jsx";
 import NavBar from "./components/NavBar/NavBar.jsx";
 import Footer from "./components/Footer/Footer.jsx";
+import Keyboard from "./pages/Keyboard/Keyboard.jsx";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/screen" element={<Screen />} />
+      </Routes>
+      <Routes>
+        <Route path="/keyboard" element={<Keyboard />} />
       </Routes>
       <Footer />
       <ButtonFloat />
