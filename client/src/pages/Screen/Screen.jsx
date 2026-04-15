@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "../../components/Hero/Hero.jsx";
 import styles from "./Screen.module.css";
 import FeaturesScreen from "./components/FeaturesScreen/FeaturesScreen.jsx";
-import Diagnostic from "./components/Diagnostic/Diagnostic.jsx";
+import DiagnosticScreen from "./components/DiagnosticScreen/DiagnosticScreen.jsx";
 import Faq from "./components/Faq/Faq.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 
@@ -29,7 +29,7 @@ const Screen = () => {
     <div class={styles.lp_wrapper}>
       <Hero props={heroTexts} />
       <FeaturesScreen />
-      <Diagnostic />
+      <DiagnosticScreen />
       <Faq />
       <RelatedServices props={relatedServicesContent} />
     </div>

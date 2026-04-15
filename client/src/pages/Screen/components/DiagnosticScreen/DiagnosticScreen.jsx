@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./Diagnostic.module.css";
+import styles from "./DiagnosticScreen.module.css";
 import image from "../../../../assets/Images/pantalla-rota.jpg";
 
-const Diagnostic = () => {
+const DiagnosticScreen = () => {
   return (
     <section className={styles.lp_section}>
       {/* <div className="container"> */}
@@ -46,4 +46,4 @@ const Diagnostic = () => {
   );
 };
 
-export default Diagnostic;
+export default DiagnosticScreen;
