@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Faq.module.css";
+import styles from "./FaqScreen.module.css";
 
 const FaqScreen = () => {
   return (
