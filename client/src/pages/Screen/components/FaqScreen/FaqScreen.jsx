@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Faq.module.css";
 
-const Faq = () => {
+const FaqScreen = () => {
   return (
     <>
       <section class={styles.lp_section}>
@@ -47,4 +47,4 @@ const Faq = () => {
   );
 };
 
-export default Faq;
+export default FaqScreen;

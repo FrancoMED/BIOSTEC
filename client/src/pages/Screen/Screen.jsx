@@ -3,7 +3,7 @@ import Hero from "../../components/Hero/Hero.jsx";
 import styles from "./Screen.module.css";
 import FeaturesScreen from "./components/FeaturesScreen/FeaturesScreen.jsx";
 import DiagnosticScreen from "./components/DiagnosticScreen/DiagnosticScreen.jsx";
-import Faq from "./components/Faq/Faq.jsx";
+import FaqScreen from "./components/FaqScreen/FaqScreen.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 
 const heroTexts = {
@@ -30,7 +30,7 @@ const Screen = () => {
       <Hero props={heroTexts} />
       <FeaturesScreen />
       <DiagnosticScreen />
-      <Faq />
+      <FaqScreen />
       <RelatedServices props={relatedServicesContent} />
     </div>
   );
