@@ -3,6 +3,7 @@ import styles from "./Keyboard.module.css";
 import Hero from "../../components/Hero/Hero.jsx";
 import DiagnosticKeyboard from "./components/DiagnosticKeyboard/DiagnosticKeyboard.jsx";
 import FeaturesKeyboard from "./components/FeaturesKeyboard/FeaturesKeyboard.jsx";
+import FaqKeyboard from "./components/FaqKeyboard/FaqKeyboard.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 
 const heroTexts = {
@@ -33,6 +34,7 @@ const Keyboard = () => {
       <Hero props={heroTexts} />
       <FeaturesKeyboard />
       <DiagnosticKeyboard />
+      <FaqKeyboard />
       <RelatedServices props={relatedServicesContent} />
     </div>
   );
