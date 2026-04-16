@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Keyboard.module.css";
 import Hero from "../../components/Hero/Hero.jsx";
 import DiagnosticKeyboard from "./components/DiagnosticKeyboard/DiagnosticKeyboard.jsx";
+import FeaturesKeyboard from "./components/FeaturesKeyboard/FeaturesKeyboard.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 
 const heroTexts = {
@@ -30,6 +31,7 @@ const Keyboard = () => {
   return (
     <div class={styles.lp_wrapper}>
       <Hero props={heroTexts} />
+      <FeaturesKeyboard />
       <DiagnosticKeyboard />
       <RelatedServices props={relatedServicesContent} />
     </div>

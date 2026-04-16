@@ -1,0 +1,119 @@
+/* :root {
+    --lp-primary: #8db5f0;
+    --lp-primary-dark: #a00000;
+    --lp-dark: #0a0a0a;
+    --lp-muted: #5a5a5a;
+    --lp-bg: #f7f7f8;
+    --lp-card: #ffffff;
+    --lp-border: #e5e7eb;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lp_section {
+    background: var(--lp-card);
+    border: 1px solid var(--lp-border);
+    border-radius: 16px;
+    /* padding: 1.5rem; */
+    margin-top: 1.25rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.lp_section h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--lp-dark);
+}
+
+.lp_section_intro {
+    font-size: 1.05rem;
+    color: #444;
+    margin-bottom: 1.5rem;
+}
+
+/* Pricing Box */
+.pricing_box {
+    /* background: linear-gradient(135deg, #d00000 0%, #8b0000 100%); */
+    /* color: white; */
+    padding: 2rem;
+    border-radius: 16px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.pricing_box h3 {
+    /* color: white; */
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.pricing_box>p {
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.pricing_box strong {
+    font-size: 1.15rem;
+}
+
+.pricing_items {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+.pricing_items strong {
+    font-size: 1.25rem;
+}
+
+.pricing_items small {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.pricing_items span {
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.pricing_item {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.pricing_item strong {
+    display: block;
+    font-size: 1.15rem;
+    margin-bottom: 0.4rem;
+    font-weight: 700;
+}
+
+.pricing_item small {
+    opacity: 1;
+    font-size: 0.95rem;
+    font-weight: 400;
+
+}
+
+.pricing_item_positive {
+    background: #f8fff8;
+    border: 3px solid #ccffcc;
+    color: #1a1a1a;
+}
+
+.pricing_item_negative {
+    background: #fff1f1;
+    border: 3px solid #ffcccc;
+    color: #1a1a1a;
+    margin-bottom: 1.5rem;
+}
