@@ -58,12 +58,12 @@
 
 .bad {
     border-color: #ffcccc;
-    background: linear-gradient(135deg, #fff 0%, #fff8f8 100%);
+    background: #fff1f1;
 }
 
 .good {
     border-color: #ccffcc;
-    background: linear-gradient(135deg, #fff 0%, #f8fff8 100%);
+    background: #f8fff8;
 }
 
 .lp_diagnosis_card h3 {
