@@ -34,9 +34,9 @@ const Footer = () => {
 						</a>
 					</div> */}
           <div class={styles.footer_links}>
-            <Link to="/#servicios">Servicios</Link>
-            <Link to="/#sobreNosotros">Sobre Nosotros</Link>
-            <Link to="/#contacto">Contacto</Link>
+            <Link to="/#Servicios">Servicios</Link>
+            <Link to="/#Sobre Nosotros">Sobre Nosotros</Link>
+            <Link to="/#Contacto">Contacto</Link>
             <Link
               to="https://links.infosquadbrasil.com"
               target="_blank"
