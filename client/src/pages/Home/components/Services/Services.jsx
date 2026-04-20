@@ -36,7 +36,7 @@ const Services = () => {
                   <Link to="/screen" class={styles.link}>
                     <p class={styles.btn_red}>Pantalla rota o negra</p>
                   </Link>
-                  <Link to="/Keyboard" class={styles.link}>
+                  <Link to="/keyboard" class={styles.link}>
                     <p class={styles.btn_red}>Teclado defectuoso</p>
                   </Link>
                   <Link to="/hinges" class={styles.link}>

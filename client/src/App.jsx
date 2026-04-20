@@ -7,6 +7,7 @@ import Header from "./components/Header/Header.jsx";
 import NavBar from "./components/NavBar/NavBar.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Keyboard from "./pages/Keyboard/Keyboard.jsx";
+import Hinges from "./pages/Hinges/Hinges.jsx";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/keyboard" element={<Keyboard />} />
+      </Routes>
+      <Routes>
+        <Route path="/hinges" element={<Hinges />} />
       </Routes>
       <Footer />
       <ButtonFloat />
