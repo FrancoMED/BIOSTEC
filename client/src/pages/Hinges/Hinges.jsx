@@ -3,6 +3,7 @@ import styles from "./Hinges.module.css";
 import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 import FaqHinges from "./components/FaqHinges/FaqHinges.jsx";
+import DiagnosticHinges from "./components/DiagnosticHinges/DiagnosticHinges.jsx";
 
 const heroTexts = {
   title: "¿Bisagra rota? La arreglaremos antes de que empeore.",
@@ -30,6 +31,7 @@ const Hinges = () => {
   return (
     <div class={styles.lp_wrapper}>
       <Hero props={heroTexts} />
+      <DiagnosticHinges />
       <FaqHinges />
       <RelatedServices props={relatedServicesContent} />
     </div>
