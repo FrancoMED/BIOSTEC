@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar/NavBar.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Keyboard from "./pages/Keyboard/Keyboard.jsx";
 import Hinges from "./pages/Hinges/Hinges.jsx";
+import Ports from "./pages/Ports/Ports.jsx";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/hinges" element={<Hinges />} />
+      </Routes>
+      <Routes>
+        <Route path="/ports" element={<Ports />} />
       </Routes>
       <Footer />
       <ButtonFloat />
