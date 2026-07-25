@@ -2,14 +2,14 @@ import React from "react";
 import styles from "./Ports.module.css";
 import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
+import FeaturesPorts from "./components/FeaturesPorts/FeaturesPorts.jsx";
 // import FaqPorts from "./components/FaqPorts/FaqPorts.jsx";
 // import DiagnosticPorts from "./components/DiagnosticPorts/DiagnosticPorts.jsx";
-// import FeaturesPorts from "./components/FeaturesPorts/FeaturesPorts.jsx";
 
 const heroTexts = {
-  title: "¿Bisagra rota? La arreglaremos antes de que empeore.",
+  title: "¿El puerto USB, HDMI o del cargador no funcionan correctamente?",
   subtitle:
-    "¿La pantalla se cae, cruje o la carcasa está agrietada? La cosa solo va a empeorar.",
+    "¿Problemas de conexión, puerto dañado o dispositivo no reconocido? Ofrecemos servicios de diagnóstico y reparación con soldadura profesional.",
 
   steps: [
     "🧾 Envíanos el modelo",
@@ -32,9 +32,9 @@ const Ports = () => {
   return (
     <div class={styles.lp_wrapper}>
       <Hero props={heroTexts} />
-      {/* <FeaturesPorts />
-      <DiagnosticPorts />
-      <FaqPorts /> */}
+      <FeaturesPorts />
+      {/* <DiagnosticPorts /> */}
+      {/* <FaqPorts /> */}
       <RelatedServices props={relatedServicesContent} />
     </div>
   );
