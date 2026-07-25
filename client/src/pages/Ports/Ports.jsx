@@ -3,8 +3,8 @@ import styles from "./Ports.module.css";
 import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 import FeaturesPorts from "./components/FeaturesPorts/FeaturesPorts.jsx";
-// import FaqPorts from "./components/FaqPorts/FaqPorts.jsx";
 // import DiagnosticPorts from "./components/DiagnosticPorts/DiagnosticPorts.jsx";
+import FaqPorts from "./components/FaqPorts/FaqPorts.jsx";
 
 const heroTexts = {
   title: "¿El puerto USB, HDMI o del cargador no funcionan correctamente?",
@@ -34,7 +34,7 @@ const Ports = () => {
       <Hero props={heroTexts} />
       <FeaturesPorts />
       {/* <DiagnosticPorts /> */}
-      {/* <FaqPorts /> */}
+      <FaqPorts />
       <RelatedServices props={relatedServicesContent} />
     </div>
   );
