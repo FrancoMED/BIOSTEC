@@ -39,8 +39,8 @@ const FeaturesHinges = () => {
 							line-height: 1.8;
 						"
           >
-            💰 El costo final varía según el modelo del notebook y el tipo de
-            teclado instalado. Por esta razón,
+            💰 El precio depende de la magnitud del daño y del modelo de la
+            notebook. Por esta razón,
             <br />
             <strong>el presupuesto es totalmente gratuito:</strong> el cliente
             solo abona si el equipo tiene una solución efectiva.
