@@ -10,6 +10,7 @@ import Keyboard from "./pages/Keyboard/Keyboard.jsx";
 import Hinges from "./pages/Hinges/Hinges.jsx";
 import Ports from "./pages/Ports/Ports.jsx";
 import Start from "./pages/Start/Start.jsx";
+import Liquid from "./pages/Liquid/Liquid.jsx";
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/start" element={<Start />} />
+      </Routes>
+      <Routes>
+        <Route path="/liquid" element={<Liquid />} />
       </Routes>
       <Footer />
       <ButtonFloat />
