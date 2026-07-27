@@ -9,6 +9,7 @@ import Footer from "./components/Footer/Footer.jsx";
 import Keyboard from "./pages/Keyboard/Keyboard.jsx";
 import Hinges from "./pages/Hinges/Hinges.jsx";
 import Ports from "./pages/Ports/Ports.jsx";
+import Start from "./pages/Start/Start.jsx";
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/ports" element={<Ports />} />
+      </Routes>
+      <Routes>
+        <Route path="/start" element={<Start />} />
       </Routes>
       <Footer />
       <ButtonFloat />
