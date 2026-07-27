@@ -25,7 +25,7 @@ const relatedServicesContent = {
     "Bisagras",
     "Notebook no enciende",
   ],
-  links: ["/screen", "/keyboard", "/hinges", "/notebook-not-start"],
+  links: ["/screen", "/keyboard", "/hinges", "/start"],
 };
 
 const Ports = () => {

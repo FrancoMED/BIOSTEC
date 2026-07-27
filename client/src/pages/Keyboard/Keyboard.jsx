@@ -25,7 +25,7 @@ const relatedServicesContent = {
     "Puertos USB/HDMI",
     "Notebook no enciende",
   ],
-  links: ["/screen", "/hinges", "/ports", "/notebook-not-start"],
+  links: ["/screen", "/hinges", "/ports", "/start"],
 };
 
 const Keyboard = () => {
