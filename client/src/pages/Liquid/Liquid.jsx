@@ -4,7 +4,7 @@ import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 import FeaturesLiquid from "./components/FeaturesLiquid/FeaturesLiquid.jsx";
 // import DiagnosticLiquid from "./components/DiagnosticLiquid/DiagnosticLiquid.jsx";
-// import FaqLiquid from "./components/FaqLiquid/FaqLiquid.jsx";
+import FaqLiquid from "./components/FaqLiquid/FaqLiquid.jsx";
 
 const heroTexts = {
   title: "¿Se te derramó líquido en el portátil? ¡NO LO ENCIENDAS!",
@@ -34,7 +34,7 @@ const Liquid = () => {
       <Hero props={heroTexts} />
       <FeaturesLiquid />
       {/* <DiagnosticLiquid /> */}
-      {/* <FaqLiquid /> */}
+      <FaqLiquid />
       <RelatedServices props={relatedServicesContent} />
     </div>
   );
