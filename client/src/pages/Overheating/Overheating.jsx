@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Overheating.module.css";
 import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
-// import FeaturesOverheating from "./components/FeaturesOverheating/FeaturesOverheating.jsx";
+import FeaturesOverheating from "./components/FeaturesOverheating/FeaturesOverheating.jsx";
 // import DiagnosticOverheating from "./components/DiagnosticOverheating/DiagnosticOverheating.jsx";
 // import FaqOverheating from "./components/FaqOverheating/FaqOverheating.jsx";
 
@@ -33,7 +33,7 @@ const Overheating = () => {
   return (
     <div class={styles.lp_wrapper}>
       <Hero props={heroTexts} />
-      {/* <FeaturesOverheating /> */}
+      <FeaturesOverheating />
       {/* <DiagnosticOverheating /> */}
       {/* <FaqOverheating /> */}
       <RelatedServices props={relatedServicesContent} />
