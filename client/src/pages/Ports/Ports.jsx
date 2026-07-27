@@ -3,7 +3,7 @@ import styles from "./Ports.module.css";
 import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 import FeaturesPorts from "./components/FeaturesPorts/FeaturesPorts.jsx";
-// import DiagnosticPorts from "./components/DiagnosticPorts/DiagnosticPorts.jsx";
+import DiagnosticPorts from "./components/DiagnosticPorts/DiagnosticPorts.jsx";
 import FaqPorts from "./components/FaqPorts/FaqPorts.jsx";
 
 const heroTexts = {
@@ -33,7 +33,7 @@ const Ports = () => {
     <div class={styles.lp_wrapper}>
       <Hero props={heroTexts} />
       <FeaturesPorts />
-      {/* <DiagnosticPorts /> */}
+      <DiagnosticPorts />
       <FaqPorts />
       <RelatedServices props={relatedServicesContent} />
     </div>
