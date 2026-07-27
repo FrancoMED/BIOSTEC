@@ -20,12 +20,12 @@ const heroTexts = {
 
 const relatedServicesContent = {
   texts: [
-    "Pantalla rota o negra",
+    "Teclado defectuoso",
     "puertos USB, HDMI ",
-    "Daño por liquido",
+    "Notebook no enciende",
     "Sobrecalentamiento",
   ],
-  links: ["/screen", "/ports", "/liquid", "/overheating"],
+  links: ["/keyboard", "/ports", "/start", "/overheating"],
 };
 
 const Liquid = () => {
