@@ -70,7 +70,7 @@ const Services = () => {
                   Sin energía, sin imagen, cortocircuito o fuga de líquido.
                 </text>
                 <div class={styles.btn_list}>
-                  <Link to="/notebook-not-start" class={styles.link}>
+                  <Link to="/start" class={styles.link}>
                     <p class={styles.btn_orange}>Notebook no enciende</p>
                   </Link>
                   <Link to="/liquid" class={styles.link}>
