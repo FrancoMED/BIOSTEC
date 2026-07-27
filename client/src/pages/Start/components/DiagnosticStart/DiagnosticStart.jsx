@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./DiagnosticStart.module.css";
-import image from "../../../../assets/Images/hdmi.jpg";
+import image from "../../../../assets/Images/chip.jpg";
 
 const DiagnosticStart = () => {
   return (
@@ -12,26 +12,28 @@ const DiagnosticStart = () => {
             <img src={image} alt="Teclado-roto" />
           </div>
           <div className="w-full lg:w-3/7">
-            <h2>🔍 Qué probar en casa</h2>
+            <h2>🔧 Tipos de reparaciones que realizamos</h2>
             <ul className={styles.lp_list}>
               <li>
-                <strong>Prueba con otro cable o dispositivo:</strong> Así
-                descartarás que el problema esté en el accesorio.
+                <strong>Sustitución de componentes SMD:</strong> condensadores,
+                transistores, MOSFET, reguladores, etc.
               </li>
               <li>
-                <strong>Prueba con otros puertos:</strong> comprueba si el
-                problema se limita a uno solo.
+                <strong>Reparación de circuitos de carga de baterías:</strong>{" "}
+                especialidad de la casa.
               </li>
+              <li>Recuperación y reprogramación de una BIOS dañada.</li>
+              <li>Reballing y reemplazo de GPU/chipset.</li>
+              <li>Diagnóstico completo con informe técnico.</li>
               <li>
-                <strong>Limpieza con aire comprimido:</strong> aveces solo es
-                suciedad.
-              </li>
-              <li>
-                <strong>NO:</strong> Utilice objetos metálicos para limpiar
-                (provoca un cortocircuito) ni aplique fuerza para "sujetar" el
-                cable (rompe el conector).
+                Reparación profesional de una placa de circuito impreso dañada
+                por un líquido derramado.
               </li>
             </ul>
+            <h3>
+              Garantía de 6 meses en todas las reparaciones. Si no encontramos
+              una solución para su equipo, no paga NADA.
+            </h3>
           </div>
         </div>
       </div>
