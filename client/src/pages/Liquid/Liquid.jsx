@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Liquid.module.css";
 import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
-// import FeaturesLiquid from "./components/FeaturesLiquid/FeaturesLiquid.jsx";
+import FeaturesLiquid from "./components/FeaturesLiquid/FeaturesLiquid.jsx";
 // import DiagnosticLiquid from "./components/DiagnosticLiquid/DiagnosticLiquid.jsx";
 // import FaqLiquid from "./components/FaqLiquid/FaqLiquid.jsx";
 
@@ -32,7 +32,7 @@ const Liquid = () => {
   return (
     <div class={styles.lp_wrapper}>
       <Hero props={heroTexts} />
-      {/* <FeaturesLiquid /> */}
+      <FeaturesLiquid />
       {/* <DiagnosticLiquid /> */}
       {/* <FaqLiquid /> */}
       <RelatedServices props={relatedServicesContent} />
