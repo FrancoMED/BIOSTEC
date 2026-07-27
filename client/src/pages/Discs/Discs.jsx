@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Discs.module.css";
 import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
-// import FeaturesDiscs from "./components/FeaturesDiscs/FeaturesDiscs.jsx";
+import FeaturesDiscs from "./components/FeaturesDiscs/FeaturesDiscs.jsx";
 // import DiagnosticDiscs from "./components/DiagnosticDiscs/DiagnosticDiscs.jsx";
 // import FaqDiscs from "./components/FaqDiscs/FaqDiscs.jsx";
 
@@ -32,7 +32,7 @@ const Discs = () => {
   return (
     <div class={styles.lp_wrapper}>
       <Hero props={heroTexts} />
-      {/* <FeaturesDiscs /> */}
+      <FeaturesDiscs />
       {/* <DiagnosticDiscs /> */}
       {/* <FaqDiscs /> */}
       <RelatedServices props={relatedServicesContent} />
