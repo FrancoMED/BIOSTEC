@@ -12,6 +12,10 @@ import Ports from "./pages/Ports/Ports.jsx";
 import Start from "./pages/Start/Start.jsx";
 import Liquid from "./pages/Liquid/Liquid.jsx";
 import Overheating from "./pages/Overheating/Overheating.jsx";
+import Discs from "./pages/Discs/Discs.jsx";
+// import Ram from "./pages/Ram/Ram.jsx";
+// import Windows from "./pages/Windows/Windows.jsx";
+// import Drivers from "./pages/Drivers/Drivers.jsx";
 
 function App() {
   return (
@@ -42,6 +46,18 @@ function App() {
       <Routes>
         <Route path="/overheating" element={<Overheating />} />
       </Routes>
+      <Routes>
+        <Route path="/discs" element={<Discs />} />
+      </Routes>
+      {/* <Routes> */}
+      {/* <Route path="/ram" element={<Ram />} /> */}
+      {/* </Routes> */}
+      {/* <Routes> */}
+      {/* <Route path="/windows" element={<Windows />} /> */}
+      {/* </Routes> */}
+      {/* <Routes> */}
+      {/* <Route path="/drivers" element={<Drivers />} /> */}
+      {/* </Routes> */}
       <Footer />
       <ButtonFloat />
     </div>
