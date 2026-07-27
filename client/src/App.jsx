@@ -11,6 +11,7 @@ import Hinges from "./pages/Hinges/Hinges.jsx";
 import Ports from "./pages/Ports/Ports.jsx";
 import Start from "./pages/Start/Start.jsx";
 import Liquid from "./pages/Liquid/Liquid.jsx";
+import Overheating from "./pages/Overheating/Overheating.jsx";
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/liquid" element={<Liquid />} />
+      </Routes>
+      <Routes>
+        <Route path="/overheating" element={<Overheating />} />
       </Routes>
       <Footer />
       <ButtonFloat />
