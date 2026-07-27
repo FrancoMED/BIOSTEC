@@ -3,7 +3,7 @@ import styles from "./Overheating.module.css";
 import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 import FeaturesOverheating from "./components/FeaturesOverheating/FeaturesOverheating.jsx";
-// import DiagnosticOverheating from "./components/DiagnosticOverheating/DiagnosticOverheating.jsx";
+import DiagnosticOverheating from "./components/DiagnosticOverheating/DiagnosticOverheating.jsx";
 import FaqOverheating from "./components/FaqOverheating/FaqOverheating.jsx";
 
 const heroTexts = {
@@ -34,7 +34,7 @@ const Overheating = () => {
     <div class={styles.lp_wrapper}>
       <Hero props={heroTexts} />
       <FeaturesOverheating />
-      {/* <DiagnosticOverheating /> */}
+      <DiagnosticOverheating />
       <FaqOverheating />
       <RelatedServices props={relatedServicesContent} />
     </div>
