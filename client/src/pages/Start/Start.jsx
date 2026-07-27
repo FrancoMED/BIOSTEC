@@ -4,7 +4,7 @@ import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 import FeaturesStart from "./components/FeaturesStart/FeaturesStart.jsx";
 // import DiagnosticStart from "./components/DiagnosticStart/DiagnosticStart.jsx";
-// import FaqStart from "./components/FaqStart/FaqStart.jsx";
+import FaqStart from "./components/FaqStart/FaqStart.jsx";
 
 const heroTexts = {
   title: "¿Tu portátil no enciende ? Descubre la causa y el costo.",
@@ -34,7 +34,7 @@ const Start = () => {
       <Hero props={heroTexts} />
       <FeaturesStart />
       {/* <DiagnosticStart /> */}
-      {/* <FaqStart /> */}
+      <FaqStart />
       <RelatedServices props={relatedServicesContent} />
     </div>
   );
