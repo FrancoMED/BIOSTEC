@@ -3,7 +3,7 @@ import styles from "./Ram.module.css";
 import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 import FeaturesRam from "./components/FeaturesRam/FeaturesRam.jsx";
-// import DiagnosticRam from "./components/DiagnosticRam/DiagnosticRam.jsx";
+import DiagnosticRam from "./components/DiagnosticRam/DiagnosticRam.jsx";
 // import FaqRam from "./components/FaqRam/FaqRam.jsx";
 
 const heroTexts = {
@@ -33,7 +33,7 @@ const Ram = () => {
     <div class={styles.lp_wrapper}>
       <Hero props={heroTexts} />
       <FeaturesRam />
-      {/* <DiagnosticRam /> */}
+      <DiagnosticRam />
       {/* <FaqRam /> */}
       <RelatedServices props={relatedServicesContent} />
     </div>
