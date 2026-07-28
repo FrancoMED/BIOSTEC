@@ -3,7 +3,7 @@ import styles from "./Drivers.module.css";
 import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 import FeaturesDrivers from "./components/FeaturesDrivers/FeaturesDrivers.jsx";
-// import DiagnosticDrivers from "./components/DiagnosticDrivers/DiagnosticDrivers.jsx";
+import DiagnosticDrivers from "./components/DiagnosticDrivers/DiagnosticDrivers.jsx";
 
 const heroTexts = {
   title:
@@ -33,7 +33,7 @@ const Drivers = () => {
     <div class={styles.lp_wrapper}>
       <Hero props={heroTexts} />
       <FeaturesDrivers />
-      {/* <DiagnosticDrivers /> */}
+      <DiagnosticDrivers />
       <RelatedServices props={relatedServicesContent} />
     </div>
   );
