@@ -2,9 +2,8 @@ import React from "react";
 import styles from "./Windows.module.css";
 import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
-// import FeaturesWindows from "./components/FeaturesWindows/FeaturesWindows.js";
+import FeaturesWindows from "./components/FeaturesWindows/FeaturesWindows.jsx";
 // import DiagnosticWindows from "./components/DiagnosticWindows/DiagnosticWindows.js";
-// import FaqWindows from "./components/FaqWindows/FaqWindows.jsx";
 
 const heroTexts = {
   title:
@@ -33,9 +32,8 @@ const Windows = () => {
   return (
     <div class={styles.lp_wrapper}>
       <Hero props={heroTexts} />
-      {/* <FeaturesWindows /> */}
+      <FeaturesWindows />
       {/* <DiagnosticWindows /> */}
-      {/* <FaqWindows /> */}
       <RelatedServices props={relatedServicesContent} />
     </div>
   );
