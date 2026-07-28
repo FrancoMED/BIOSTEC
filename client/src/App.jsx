@@ -15,7 +15,7 @@ import Overheating from "./pages/Overheating/Overheating.jsx";
 import Discs from "./pages/Discs/Discs.jsx";
 import Ram from "./pages/Ram/Ram.jsx";
 import Windows from "./pages/Windows/Windows.jsx";
-// import Drivers from "./pages/Drivers/Drivers.jsx";
+import Drivers from "./pages/Drivers/Drivers.jsx";
 
 function App() {
   return (
@@ -55,9 +55,9 @@ function App() {
       <Routes>
         <Route path="/windows" element={<Windows />} />
       </Routes>
-      {/* <Routes> */}
-      {/* <Route path="/drivers" element={<Drivers />} /> */}
-      {/* </Routes> */}
+      <Routes>
+        <Route path="/drivers" element={<Drivers />} />
+      </Routes>
       <Footer />
       <ButtonFloat />
     </div>
