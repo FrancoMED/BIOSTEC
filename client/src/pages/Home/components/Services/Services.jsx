@@ -33,16 +33,32 @@ const Services = () => {
                 <h3>Piezas y Accesorios</h3>
                 <text>Pantalla, teclado, bisagras, puertos y cargador</text>
                 <div class={styles.btn_list}>
-                  <Link to="/screen" class={styles.link}>
+                  <Link
+                    to="/screen"
+                    class={styles.link}
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
                     <p class={styles.btn_red}>Pantalla rota o negra</p>
                   </Link>
-                  <Link to="/keyboard" class={styles.link}>
+                  <Link
+                    to="/keyboard"
+                    class={styles.link}
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
                     <p class={styles.btn_red}>Teclado defectuoso</p>
                   </Link>
-                  <Link to="/hinges" class={styles.link}>
+                  <Link
+                    to="/hinges"
+                    class={styles.link}
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
                     <p class={styles.btn_red}>Bisagras</p>
                   </Link>
-                  <Link to="/ports" class={styles.link}>
+                  <Link
+                    to="/ports"
+                    class={styles.link}
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
                     <p class={styles.btn_red}>Puertos USB/HDMI</p>
                   </Link>
                 </div>
@@ -70,13 +86,25 @@ const Services = () => {
                   Sin energía, sin imagen, cortocircuito o fuga de líquido.
                 </text>
                 <div class={styles.btn_list}>
-                  <Link to="/start" class={styles.link}>
+                  <Link
+                    to="/start"
+                    class={styles.link}
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
                     <p class={styles.btn_orange}>Notebook no enciende</p>
                   </Link>
-                  <Link to="/liquid" class={styles.link}>
+                  <Link
+                    to="/liquid"
+                    class={styles.link}
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
                     <p class={styles.btn_orange_solid}>🚨 Daño por líquido</p>
                   </Link>
-                  <Link to="/overheating" class={styles.link}>
+                  <Link
+                    to="/overheating"
+                    class={styles.link}
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
                     <p class={styles.btn_orange}>Sobrecalentamiento</p>
                   </Link>
                 </div>
@@ -125,10 +153,18 @@ const Services = () => {
                 <h3>Actualización</h3>
                 <text>Haga que su Notebook sea más rápida.</text>
                 <div class={styles.btn_list}>
-                  <Link to="/discs" class={styles.link}>
+                  <Link
+                    to="/discs"
+                    class={styles.link}
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
                     <p class={styles.btn_green}>Reemplazar un HDD por un SSD</p>
                   </Link>
-                  <Link to="/ram" class={styles.link}>
+                  <Link
+                    to="/ram"
+                    class={styles.link}
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
                     <p class={styles.btn_green}>Ampliar memoria RAM</p>
                   </Link>
                 </div>
@@ -155,10 +191,18 @@ const Services = () => {
                 <h3>Software</h3>
                 <text>Sistema, drivers y configuración</text>
                 <div class={styles.btn_list}>
-                  <Link to="/windows" class={styles.link}>
+                  <Link
+                    to="/windows"
+                    class={styles.link}
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
                     <p class={styles.btn_blue}>Reinstalar Windows</p>
                   </Link>
-                  <Link to="/drivers" class={styles.link}>
+                  <Link
+                    to="/drivers"
+                    class={styles.link}
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
                     <p class={styles.btn_blue}>Drivers Wi-Fi/Bluetooth</p>
                   </Link>
                 </div>
