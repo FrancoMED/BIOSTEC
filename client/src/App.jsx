@@ -16,16 +16,12 @@ import Discs from "./pages/Discs/Discs.jsx";
 import Ram from "./pages/Ram/Ram.jsx";
 import Windows from "./pages/Windows/Windows.jsx";
 import Drivers from "./pages/Drivers/Drivers.jsx";
-import Card2 from "./pages/Card2/Card2.jsx";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <NavBar />
-      <Routes>
-        <Route path="/card2" element={<Card2 />} />
-      </Routes>
       <Routes>
         <Route exact path="/" element={<Home />} />
       </Routes>
