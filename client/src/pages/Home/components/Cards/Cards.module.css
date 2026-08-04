@@ -70,6 +70,10 @@
 	}
 }
 
+.container_card img {
+	margin-bottom: 1rem;
+}
+
 @media (min-width: 1280px) {
 	.features_section {
 		padding: 3rem 12rem;
