@@ -47,7 +47,7 @@ const Contact = () => {
           <div>
             <h4>Dirección</h4>
             <p>
-              Gurruchaga 1010 - Zeballos
+              Kabul 1381 - Zeballos
               <br />
               Florencio Varela
             </p>
@@ -115,7 +115,7 @@ const Contact = () => {
       {/* <!-- Mapa --> */}
       <div class={styles.map_container}>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.778282521093!2d-58.24370552314288!3d-34.81151956850411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32906cbd2d14d%3A0x4090f8ea0f72ef6a!2sFrancisco%20Gurruchaga%201010%2C%20B1888%20Zeballos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1768577069341!5m2!1ses-419!2sar"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.7750585168333!2d-58.24359372349528!3d-34.811600668507886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32906b83eea73%3A0x1522d9fa7bde631c!2sKabul%201381%2C%20B1863DIK%20Zeballos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1785981052026!5m2!1ses-419!2sar"
           title="Mapa de nuestra sucursal"
           loading="lazy"
         ></iframe>
