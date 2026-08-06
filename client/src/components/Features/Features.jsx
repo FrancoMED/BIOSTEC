@@ -7,7 +7,7 @@ const Features = () => {
       <section class={styles.social_proof_bar}>
         <div class={styles.proof_grid}>
           <div class={styles.proof_item}>
-            <div class={styles.proof_number}>+400</div>
+            <div class={styles.proof_number}>+200</div>
             <div class={styles.proof_label}>Equipos reparados</div>
           </div>
           <div class={styles.proof_item}>
@@ -15,7 +15,7 @@ const Features = () => {
             <div class={styles.proof_label}>Años de experiencia</div>
           </div>
           <div class={styles.proof_item}>
-            <div class={styles.proof_number}>⭐ 4.9</div>
+            <div class={styles.proof_number}>4.9</div>
             <div class={styles.proof_label}>Reseña de Google</div>
           </div>
           <div class={styles.proof_item}>
