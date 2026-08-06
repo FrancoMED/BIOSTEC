@@ -16,6 +16,7 @@ const heroTexts = {
     "🔍 Verificamos disponibilidad",
     "💰 Recibí tu presupuesto gratuito",
   ],
+  msj: "¡Hola!%20tengo%20un%20problema%20con%20mi%20Notebook%2C%20tiene%20el%20teclado%20roto.",
 };
 
 const relatedServicesContent = {
