@@ -7,15 +7,16 @@ import DiagnosticHinges from "./components/DiagnosticHinges/DiagnosticHinges.jsx
 import FeaturesHinges from "./components/FeaturesHinges/FeaturesHinges.jsx";
 
 const heroTexts = {
-  title: "¿Bisagra rota? La arreglaremos antes de que empeore.",
+  title: "¿Bisagra rota? La arreglaremos antes de que sea mas grave.",
   subtitle:
-    "¿La pantalla se cae, cruje o la carcasa está agrietada? La cosa solo va a empeorar.",
+    "¿La pantalla se cae, cruje o la carcasa está agrietada? Esto podría empeorar.",
 
   steps: [
     "🧾 Envíanos el modelo",
     "🔍 Evaluamos los daños",
     "💰 Recibí tu presupuesto gratuito",
   ],
+  msj: "¡Hola!%20tengo%20un%20problema%20con%20mi%20Notebook%2C%20tiene%20la%20bisagra%20rota.",
 };
 
 const relatedServicesContent = {
