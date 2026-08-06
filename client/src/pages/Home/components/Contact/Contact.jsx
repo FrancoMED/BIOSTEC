@@ -6,7 +6,7 @@ const Contact = () => {
     <div id="Contacto" class={styles.contact_simple}>
       {/* <!-- CTA Principal --> */}
       <div class={styles.contact_cta_box}>
-        <h2>📱 Hablanos ahora!</h2>
+        <h2>Hablanos ahora!</h2>
         <p>
           Describe tu problema vía WhatsApp y recibe una valoración inicial.
         </p>
