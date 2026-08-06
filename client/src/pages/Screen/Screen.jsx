@@ -7,11 +7,14 @@ import FaqScreen from "./components/FaqScreen/FaqScreen.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 
 const heroTexts = {
-  title: "Pantalla Quebrada? Cotización GRATIS a través de WhatsApp",
+  title:
+    "¿Se te rompió la pantalla? ¡No te preocupes! Cotización GRATIS a través de WhatsApp",
   subtitle:
-    "Descubra si necesita reemplazar la pantalla o si hay una opción dereparación más económica, sin salir de casa.",
+    "Descubra si necesita reemplazar la pantalla o si hay una opción de reparación más económica, sin salir de casa.",
 
-  steps: ["📸 Envíe foto", "🔍 Técnico analista", "💰 Reciba cotización"],
+  steps: ["📸 Envíe foto", "🔍 Técnico analiza", "💰 Reciba cotización"],
+
+  msj: "¡Hola!%20tengo%20un%20problema%20con%20mi%20Notebook%2C%20tiene%20la%20pantalla%20rota.",
 };
 
 const relatedServicesContent = {

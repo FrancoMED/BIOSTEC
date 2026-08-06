@@ -19,7 +19,7 @@ const FaqScreen = () => {
           <div class={styles.lp_faq_a}>
             Contamos con repuestos y componentes en stock, lo que nos permite
             realizar muchas reparaciones en el mismo día o dentro de un plazo de
-            24 a 48 horas, según el tipo de falla.
+            24 a 72 horas, según el tipo de falla.
           </div>
         </div>
 

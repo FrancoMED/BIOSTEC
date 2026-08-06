@@ -5,7 +5,7 @@ const FeaturesScreen = () => {
   return (
     <>
       <section class={styles.lp_section}>
-        <h2>🔍 Es caro reparar la pantalla de un portátil?</h2>
+        <h2>🔍 Es caro reparar la pantalla de una notebook?</h2>
         <p class={styles.lp_section_intro}>
           <strong>Buena noticia:</strong> ¡No siempre es necesario reemplazar la
           pantalla completa! Aquí te explicamos cómo identificarla:

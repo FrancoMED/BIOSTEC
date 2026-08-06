@@ -19,19 +19,17 @@ const Hero = ({ props }) => {
       <div class={styles.btn_container}>
         <a
           class={styles.lp_cta_main}
-          href="https://wa.me/5491130508080?text=¡Hola!%20tengo%20un%20problema%20con%20mi%20equipo,%20¿Podrían%20ayudarme?"
+          href={`https://wa.me/5491130508080?text=${props.msj}`}
           target="_blank"
           rel="noreferrer"
         >
-          📱 Enviar foto ahora GRATIS!
+          Cominucate con nosotros AHORA!
         </a>
       </div>
-      <div class={styles.lp_urgency_badge}>
-        ⚡ Respuesta en menos de 5 minutos
-      </div>
+      <div class={styles.lp_urgency_badge}>Respuesta en menos de 5 minutos</div>
 
       <p class={styles.lp_hero_trust}>
-        🛡️ 2 años de experiencia <span>·</span> Garantía de 6 meses
+        2 años de experiencia <span>·</span> Garantía de 6 meses
         <span>·</span> Piezas originales
       </p>
     </section>
