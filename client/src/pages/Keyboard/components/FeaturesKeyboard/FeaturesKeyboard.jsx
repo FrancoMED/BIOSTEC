@@ -21,7 +21,7 @@ const FeaturesKeyboard = () => {
                 ✅ Reemplazo profesional de teclado con garantía de 6 meses
               </strong>
               <small>
-                A partir de <span>$25.000 ARS</span>, dependiendo del modelo y
+                A partir de <span>$60.000 ARS</span>, dependiendo del modelo y
                 la disponibilidad.
               </small>
             </div>
@@ -29,7 +29,7 @@ const FeaturesKeyboard = () => {
             <div
               className={`${styles.pricing_item}  ${styles.pricing_item_negative}`}
             >
-              <strong>❌ Teclados genéricos sin garantía</strong>
+              <strong>❌ No usamos teclados genéricos</strong>
               <small>
                 Pueden despegarse, trabarse o dejar de funcionar en pocas
                 semanas.
@@ -45,17 +45,12 @@ const FeaturesKeyboard = () => {
 							line-height: 1.8;
 						"
           >
-            💰 El costo final varía según el modelo del notebook y el tipo de
+            💰 El costo final varía según el modelo de la notebook y el tipo de
             teclado instalado. Por esta razón,
             <br />
             <strong>el presupuesto es totalmente gratuito:</strong> el cliente
             solo abona si el equipo tiene una solución efectiva.
           </p>
-
-          {/* <p className="margin-top: 1rem; font-size: 0.95rem; opacity: 0.9">
-            ✅ Orçamento detalhado antes de qualquer reparo
-            <br />✅ 6 meses de garantia incluída
-          </p> */}
         </div>
       </section>
     </>

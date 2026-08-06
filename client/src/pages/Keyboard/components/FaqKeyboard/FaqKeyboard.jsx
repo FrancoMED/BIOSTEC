@@ -33,15 +33,14 @@ const FaqKeyboard = () => {
 
         <div class={styles.lp_faq_item}>
           <div class={styles.lp_faq_q}>
-            ¿Vale la pena reparar o es mejor comprar un notebook nuevo?
+            ¿Vale la pena reparar o es mejor comprar una notebook nueva?
           </div>
           <div class={styles.lp_faq_a}>
             Reparar casi siempre es la mejor opción. Con más de 2 años de
-            experiencia en mantenimiento de notebooks, los especialistas
-            solucionan alrededor del 90% de las fallas de teclado por un costo
-            muy inferior al precio de un equipo nuevo. Además, las reparaciones
-            cuentan con garantía de hasta 6 meses, devolviendo al notebook su
-            funcionamiento original.
+            experiencia en mantenimiento de notebooks, solucionamos alrededor
+            del 90% de las fallas de teclado por un costo muy inferior al precio
+            de un equipo nuevo. Además, las reparaciones cuentan con garantía de
+            hasta 3 meses, devolviendo la notebook a su funcionamiento original.
           </div>
         </div>
       </section>
