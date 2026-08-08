@@ -12,7 +12,7 @@ const DiagnosticPorts = () => {
             <img src={image} alt="Teclado-roto" />
           </div>
           <div className="w-full lg:w-3/7">
-            <h2>🔍 Qué probar en casa</h2>
+            <h2>¿Qué probar en casa?</h2>
             <ul className={styles.lp_list}>
               <li>
                 <strong>Prueba con otro cable o dispositivo:</strong> Así

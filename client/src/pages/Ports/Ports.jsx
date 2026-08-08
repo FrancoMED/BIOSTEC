@@ -9,13 +9,14 @@ import FaqPorts from "./components/FaqPorts/FaqPorts.jsx";
 const heroTexts = {
   title: "¿El puerto USB, HDMI o del cargador no funcionan correctamente?",
   subtitle:
-    "¿Problemas de conexión, puerto dañado o dispositivo no reconocido? Ofrecemos servicios de diagnóstico y reparación con soldadura profesional.",
+    "Ofrecemos servicios de diagnóstico y reparación con soldadura profesional.",
 
   steps: [
     "🧾 Envíanos el modelo",
     "🔍 Evaluamos los daños",
     "💰 Recibí tu presupuesto gratuito",
   ],
+  msj: "¡Hola!%20tengo%20un%20problema%20con%20mi%20Notebook%2C%20tiene%20la%20bisagra%20rota.",
 };
 
 const relatedServicesContent = {

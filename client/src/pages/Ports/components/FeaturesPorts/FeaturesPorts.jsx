@@ -18,7 +18,7 @@ const FeaturesPorts = () => {
             >
               <strong>✅ Reparación de puertos</strong>
               <small>
-                A partir de <span>$25.000 ARS</span>, dependiendo del modelo y
+                A partir de <span>$30.000 ARS</span>, dependiendo del modelo y
                 la disponibilidad.
               </small>
             </div>
