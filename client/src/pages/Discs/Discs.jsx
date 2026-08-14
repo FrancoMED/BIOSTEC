@@ -4,7 +4,7 @@ import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 import FeaturesDiscs from "./components/FeaturesDiscs/FeaturesDiscs.jsx";
 import DiagnosticDiscs from "./components/DiagnosticDiscs/DiagnosticDiscs.jsx";
-// import FaqDiscs from "./components/FaqDiscs/FaqDiscs.jsx";
+import FaqDiscs from "./components/FaqDiscs/FaqDiscs.jsx";
 
 const heroTexts = {
   title: "Tu portátil será 10 veces más rápido en tan solo 24 horas.",
@@ -34,7 +34,7 @@ const Discs = () => {
       <Hero props={heroTexts} />
       <FeaturesDiscs />
       <DiagnosticDiscs />
-      {/* <FaqDiscs /> */}
+      <FaqDiscs />
       <RelatedServices props={relatedServicesContent} />
     </div>
   );
