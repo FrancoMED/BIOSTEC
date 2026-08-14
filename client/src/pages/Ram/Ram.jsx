@@ -4,6 +4,7 @@ import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 import FeaturesRam from "./components/FeaturesRam/FeaturesRam.jsx";
 import DiagnosticRam from "./components/DiagnosticRam/DiagnosticRam.jsx";
+import CompatibilityRam from "./components/CompatibilityRam/CompatibilityRam.jsx";
 import FaqRam from "./components/FaqRam/FaqRam.jsx";
 
 const heroTexts = {
@@ -34,6 +35,7 @@ const Ram = () => {
       <Hero props={heroTexts} />
       <FeaturesRam />
       <DiagnosticRam />
+      <CompatibilityRam />
       <FaqRam />
       <RelatedServices props={relatedServicesContent} />
     </div>
