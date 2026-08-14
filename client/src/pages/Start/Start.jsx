@@ -3,6 +3,7 @@ import styles from "./Start.module.css";
 import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 import FeaturesStart from "./components/FeaturesStart/FeaturesStart.jsx";
+import Symptoms from "./components/Symptoms/Symptoms.jsx";
 import DiagnosticStart from "./components/DiagnosticStart/DiagnosticStart.jsx";
 import FaqStart from "./components/FaqStart/FaqStart.jsx";
 
@@ -33,6 +34,7 @@ const Start = () => {
     <div class={styles.lp_wrapper}>
       <Hero props={heroTexts} />
       <FeaturesStart />
+      <Symptoms />
       <DiagnosticStart />
       <FaqStart />
       <RelatedServices props={relatedServicesContent} />
