@@ -4,7 +4,7 @@ import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 import FeaturesRam from "./components/FeaturesRam/FeaturesRam.jsx";
 import DiagnosticRam from "./components/DiagnosticRam/DiagnosticRam.jsx";
-// import FaqRam from "./components/FaqRam/FaqRam.jsx";
+import FaqRam from "./components/FaqRam/FaqRam.jsx";
 
 const heroTexts = {
   title: "Tu portátil será 10 veces más rápido con más RAM.",
@@ -34,7 +34,7 @@ const Ram = () => {
       <Hero props={heroTexts} />
       <FeaturesRam />
       <DiagnosticRam />
-      {/* <FaqRam /> */}
+      <FaqRam />
       <RelatedServices props={relatedServicesContent} />
     </div>
   );
