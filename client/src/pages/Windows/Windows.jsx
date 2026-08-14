@@ -4,6 +4,7 @@ import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 import FeaturesWindows from "./components/FeaturesWindows/FeaturesWindows.jsx";
 import DiagnosticWindows from "./components/DiagnosticWindows/DiagnosticWindows.jsx";
+import Backup from "./components/Backup/Backup.jsx";
 import FaqWindows from "./components/FaqWindows/FaqWindows.jsx";
 
 const heroTexts = {
@@ -35,6 +36,7 @@ const Windows = () => {
       <Hero props={heroTexts} />
       <FeaturesWindows />
       <DiagnosticWindows />
+      <Backup />
       <FaqWindows />
       <RelatedServices props={relatedServicesContent} />
     </div>
