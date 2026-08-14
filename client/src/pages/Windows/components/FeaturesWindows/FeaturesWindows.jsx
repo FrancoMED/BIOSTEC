@@ -18,7 +18,7 @@ const FeaturesWindows = () => {
             >
               <strong>✅ Reinstalación profesional</strong>
               <small>
-                Copia de seguridad de tus archivos, drivers correctos, y
+                Copia de seguridad de tus archivos, drivers correctos y
                 optimización de inicialización.
               </small>
             </div>

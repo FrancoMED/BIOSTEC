@@ -4,16 +4,17 @@ import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 import FeaturesWindows from "./components/FeaturesWindows/FeaturesWindows.jsx";
 import DiagnosticWindows from "./components/DiagnosticWindows/DiagnosticWindows.jsx";
+import FaqWindows from "./components/FaqWindows/FaqWindows.jsx";
 
 const heroTexts = {
   title:
-    "¿Tu PC funciona lento, se bloquea o está infectado con un virus? Reinstalamos Windows en 24 horas.",
+    "¿Tu PC funciona lento, se bloquea o está infectada con un virus? Reinstalamos Windows en 24 horas.",
   subtitle:
     "Sistema operativo limpio y optimizado. Eliminamos virus, errores y ralentizaciones. Tus archivos están protegidos con copias de seguridad profesionales.",
 
   steps: [
     "💾 Copia de seguridad completa",
-    "🔄 Limpiar ventanas",
+    "🔄 Reinstalación de Windows",
     "⚙️ Drivers + programas",
   ],
 };
@@ -34,6 +35,7 @@ const Windows = () => {
       <Hero props={heroTexts} />
       <FeaturesWindows />
       <DiagnosticWindows />
+      <FaqWindows />
       <RelatedServices props={relatedServicesContent} />
     </div>
   );

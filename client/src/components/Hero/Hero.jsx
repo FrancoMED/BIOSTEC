@@ -29,7 +29,7 @@ const Hero = ({ props }) => {
       <div class={styles.lp_urgency_badge}>Respuesta en menos de 5 minutos</div>
 
       <p class={styles.lp_hero_trust}>
-        2 años de experiencia <span>·</span> Garantía de 6 meses
+        2 años de experiencia <span>·</span> Garantía de 3 meses
         <span>·</span> Piezas originales
       </p>
     </section>
