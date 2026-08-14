@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./DiagnosticDiscs.module.css";
-import image from "../../../../assets/Images/sobrecalentamiento.jpg";
+import image from "../../../../assets/Images/ssd.jpg";
 
 const DiagnosticDiscs = () => {
   return (
