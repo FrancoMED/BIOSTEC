@@ -11,7 +11,7 @@ const DiagnosticDiscs = () => {
             <img src={image} alt="Teclado-roto" />
           </div>
           <div className="w-full lg:w-3/7">
-            <h2>🚨 5 señales de que tu disco duro está fallando</h2>
+            <h2>5 señales de que tu disco duro (HDD) está fallando</h2>
             <ul className={styles.lp_list}>
               <li>
                 <strong>Extremadamente lento: </strong>

@@ -18,7 +18,7 @@ const FeaturesDiscs = () => {
             >
               <strong>✅ Actualizar a SSD</strong>
               <small>
-                A partir de <span>$25.000 ARS</span> (copia de seguridad
+                A partir de <span>$50.000 ARS</span> (copia de seguridad
                 incluida)
               </small>
             </div>
