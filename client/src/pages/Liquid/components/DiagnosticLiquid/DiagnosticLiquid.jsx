@@ -12,7 +12,7 @@ const DiagnosticLiquid = () => {
             <img src={image} alt="Teclado-roto" />
           </div>
           <div className="w-full lg:w-3/7">
-            <h2>💀 ¿Por qué es tan serio?</h2>
+            <h2>¿Por qué es tan serio?</h2>
             <p>El líquido conduce la electricidad y provoca:</p>
             <ul className={styles.lp_list}>
               <li>
