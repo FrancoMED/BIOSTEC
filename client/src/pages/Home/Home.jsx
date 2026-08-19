@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "./components/Banner/Banner.jsx";
-import Features from "../../components/Features/Features.jsx";
+import Features from "./components/Features/Features.jsx";
 import Cards from "./components/Cards/Cards.jsx";
 import Services from "./components/Services/Services.jsx";
 import About from "./components/About/About.jsx";
