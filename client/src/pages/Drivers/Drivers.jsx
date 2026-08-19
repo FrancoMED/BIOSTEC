@@ -4,6 +4,7 @@ import Hero from "../../components/Hero/Hero.jsx";
 import RelatedServices from "../../components/RelatedServices/RelatedServices.jsx";
 import FeaturesDrivers from "./components/FeaturesDrivers/FeaturesDrivers.jsx";
 import DiagnosticDrivers from "./components/DiagnosticDrivers/DiagnosticDrivers.jsx";
+import FaqDrivers from "./components/FaqDrivers/FaqDrivers.jsx";
 
 const heroTexts = {
   title:
@@ -34,6 +35,7 @@ const Drivers = () => {
       <Hero props={heroTexts} />
       <FeaturesDrivers />
       <DiagnosticDrivers />
+      <FaqDrivers />
       <RelatedServices props={relatedServicesContent} />
     </div>
   );
