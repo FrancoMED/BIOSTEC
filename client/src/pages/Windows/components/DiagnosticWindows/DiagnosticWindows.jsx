@@ -22,8 +22,12 @@ const DiagnosticWindows = () => {
                 antivirus no puede eliminar.
               </li>
               <li>
-                <strong>Pantallas azules frecuentes: </strong>errores críticos
+                <strong>Pantallas azules frecuentes: </strong>Errores críticos
                 del sistema operativo
+              </li>
+              <li>
+                <strong>Errores del sistema: </strong>Mensajes de error que no
+                dejan de aparecer
               </li>
               <li>
                 <strong>Vender o donar: </strong> Eliminar permanentemente todos
