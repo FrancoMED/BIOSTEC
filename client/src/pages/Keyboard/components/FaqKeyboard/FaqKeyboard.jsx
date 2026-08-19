@@ -5,7 +5,7 @@ const FaqKeyboard = () => {
   return (
     <>
       <section class={styles.lp_section}>
-        <h2>❓ Preguntas frecuentes</h2>
+        <h2>Preguntas frecuentes</h2>
         <div class={styles.lp_faq_item}>
           <div class={styles.lp_faq_q}>
             ¿Qué hacer si se derramó líquido sobre el teclado?

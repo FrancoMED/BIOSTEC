@@ -5,7 +5,7 @@ const FaqScreen = () => {
   return (
     <>
       <section class={styles.lp_section}>
-        <h2>❓ Preguntas frecuentes</h2>
+        <h2>Preguntas frecuentes</h2>
         <div class={styles.lp_faq_item}>
           <div class={styles.lp_faq_q}>¿Cobran por el presupuesto?</div>
           <div class={styles.lp_faq_a}>

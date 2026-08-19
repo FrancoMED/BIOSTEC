@@ -5,7 +5,7 @@ const FaqHinges = () => {
   return (
     <>
       <section class={styles.lp_section}>
-        <h2>❓ Preguntas frecuentes</h2>
+        <h2>Preguntas frecuentes</h2>
         <div class={styles.lp_faq_item}>
           <div class={styles.lp_faq_q}>¿Tienes una bisagra para mi modelo?</div>
           <div class={styles.lp_faq_a}>
