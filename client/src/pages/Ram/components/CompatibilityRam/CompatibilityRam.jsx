@@ -25,7 +25,6 @@ const CompatibilityRam = () => {
             <img
               src={image}
               alt="Memória RAM Micron - compatibilidade garantida"
-              class={styles.img_container}
             />
           </div>
         </div>
