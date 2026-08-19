@@ -17,6 +17,7 @@ const heroTexts = {
     "🔍 Memoria RAM compatible",
     "💰 Recibí tu presupuesto gratuito",
   ],
+  msj: "¡Hola!%20quiero%20ampliar%20la%20memoria%20RAM%20de%20mi%20Notebook.",
 };
 
 const relatedServicesContent = {

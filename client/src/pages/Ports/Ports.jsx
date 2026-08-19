@@ -16,7 +16,7 @@ const heroTexts = {
     "🔍 Evaluamos los daños",
     "💰 Recibí tu presupuesto gratuito",
   ],
-  msj: "¡Hola!%20tengo%20un%20problema%20con%20mi%20Notebook%2C%20tiene%20la%20bisagra%20rota.",
+  msj: "¡Hola!%20tengo%20un%20problema%20con%20mi%20Notebook%2C%20no%20funciona%20un%20puerto%20correctamente.",
 };
 
 const relatedServicesContent = {

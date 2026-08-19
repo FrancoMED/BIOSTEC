@@ -16,6 +16,7 @@ const heroTexts = {
     "🔍 Compatibilidad con SSD",
     "💰 Recibí tu presupuesto gratuito",
   ],
+  msj: "¡Hola!%20quiero%20cambiar%20el%20disco%20de%20mi%20Notebook.",
 };
 
 const relatedServicesContent = {

@@ -18,6 +18,7 @@ const heroTexts = {
     "🔄 Reinstalación de Windows",
     "⚙️ Drivers + programas",
   ],
+  msj: "¡Hola!%20quiero%20reinstalar%20el%20Windows%20de%20mi%20Notebook.",
 };
 
 const relatedServicesContent = {

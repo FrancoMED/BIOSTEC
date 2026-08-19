@@ -17,6 +17,7 @@ const heroTexts = {
     "💾 Driver correcto",
     "✅ Prueba de funcionalidad",
   ],
+  msj: "¡Hola!%20tengo%20un%20problema%20con%20mi%20Notebook%2C%20sobre%20drivers/Wi-Fi/Bluetooth.",
 };
 
 const relatedServicesContent = {

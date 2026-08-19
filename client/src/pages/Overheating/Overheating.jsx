@@ -17,6 +17,7 @@ const heroTexts = {
     "🔍 Analizamos los síntomas",
     "💰 Recibí tu presupuesto gratuito",
   ],
+  msj: "¡Hola!%20tengo%20un%20problema%20con%20mi%20Notebook%2C%20se%20sobrecalienta.",
 };
 
 const relatedServicesContent = {
