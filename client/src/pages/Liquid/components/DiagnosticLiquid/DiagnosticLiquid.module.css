@@ -39,7 +39,7 @@
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
     min-width: 530px;
-    min-height: 480px;
+    max-height: 500px;
     /* height: 100%; */
 }
 
