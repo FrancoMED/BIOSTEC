@@ -40,8 +40,8 @@ const Backup = () => {
           <div class="w-full">
             <img
               src={image}
-              alt="Backup de dados antes de reinstalar Windows"
-              class={styles.img_container}
+              alt="Backup de datos antes de reinstalar Windows"
+              // class={styles.img_container}
             />
           </div>
         </div>
